@@ -3,17 +3,22 @@ layout: ../../layouts/MarkDownPage.astro
 ---
 ### Teaching
 
+<hr>
+
 #### Introduction  to Cognitive Psychology
 *Large lecture: Enrollment 300-450 per semester (!)*  
 An overview of theories and methods in the study of human cognition.  
 <br>**New in Spring Term 2024:**  Psych 240, Online Edition, enrollment 30.  Email Professor Gehring if you have questions: wgehring@umich.edu
+<hr>
 
 #### Cognitive Science of Academic Success
 *First-year seminar: Enrollment: 18-20*
 <br> Best practices for success in college, based on cognitive science and a thoughtful analysis of the state of higher education at a large public university. Cognitive science research on human learning and memory has discovered a great deal about how people can study and learn effectively. One goal of the class is to enable students to apply this research to their own course taking. Another goal is to learn and apply the science behind other important facets of success, such as managing time, avoiding technological distractions, and developing a sense of personal values and purpose.
+<hr>
 
 #### Mind, Brain, and Evil
 *First-year seminar: Enrollment: 18-20:* Why do people hurt each other?  Violent and cruel behavior is everywhere, yet there is still much to be learned about the psychological and brain processes that contribute to such behavior.  How does the human mind and brain cause evil?  In this course we shall examine some of the scientific findings about violence and some of the relevant theories from psychology and neuroscience. We’ll consider how biological and psychological factors interact with an individual's social context and environment to produce violence. Our discussions will include psychological, psychiatric, neurological, and evolutionary perspectives on a wide range of violent behavior, ranging from individual acts of aggression and criminal behavior to war and genocide.  The goal is not only to learn about violence and evil, but also to consider, compare, and possibly change our own personal perspectives on the problem.
+<hr>
 
 #### Consciousness
 *First-year seminar: Enrollment: 18-20*:

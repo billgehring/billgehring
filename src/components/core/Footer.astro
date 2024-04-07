@@ -34,20 +34,6 @@ const { footerSocials, footerLists, copyrightName, background, color, showLittle
           }
         </ul>
       </div>
-      {
-        footerLists.map((list) => (
-          <div>
-            <p><strong>{list.title}</strong></p>
-            <ul class="footer-link__list">
-              {list.items.map((item) => (
-                <li>
-                  <a href={item.slug}>{item.title}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))
-      }
     </div>
     <div class="footer-copyright__container">
       {showLittleSticksPlug && <LittleSticksPlug/>}

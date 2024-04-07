@@ -3,9 +3,9 @@ layout: ../../layouts/MarkDownPage.astro
 ---
 ### Research
 
-My longest-running line of research is in cognitive neuroscience: to understand brain processes involved in error detection, how those processes are involved in anxiety disorders, and how they manifest the executive functions that promote academic achievement in children. More recently, I have focused on higher education: I teach first-year undergraduate students evidence-based principles for learning and finding purpose in college. My research in this area uses institutional data to understand factors within the institution and the curriculum that promote or hinder academic success.
+This is a brand new website, and soon there will be links to lab webpages and photos of past lab members. While you wait you can always visit the classic site at [https://www.gehringlab.org](https://www.gehringlab.org).
 
-This is a brand new website, and soon there will be links to lab webpages and photos of past lab members. Stay tuned!
+Stay tuned!
 
 **Error Detection in the Brain.** 
 

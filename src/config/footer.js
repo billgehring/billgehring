@@ -1,24 +1,25 @@
 export const footerSocials = [
   {
     name: 'Twitter',
-    url: 'https://twitter.com/littlesticksdev',
+    url: 'https://twitter.com/williamgehring',
     icon: "mdi:twitter",
   },
   {
-    name: 'Youtube',
-    url: 'https://youtube.com/c/LittleSticks',
-    icon: "mdi:youtube",
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/william-gehring/',
+    icon: "mdi:linkedin",
   },
   {
-    name: 'Github',
-    url: 'https://github.com/littlesticks',
-    icon: "mdi:github",
+    name: 'Facebook',
+    url: 'https://www.facebook.com/bill.gehring',
+    icon: "mdi:facebook",
   },
   {
-    name: 'Discord',
-    url: 'https://littlesticks.dev/discord',
-    icon: "ic:baseline-discord",
+    name: 'Instagram',
+    url: 'https://www.instagram.com/billgehring',
+    icon: "mdi:instagram",
   },
+
 ]
 
 export const footerLists = [
