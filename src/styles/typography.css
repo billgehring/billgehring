@@ -2,6 +2,11 @@
   https://google-webfonts-helper.herokuapp.com/fonts/lato?subsets=latin
 */
 
+@import url('https://use.typekit.net/zju1ylz.css');
+/* Import the required fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;700i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600;700&display=swap');
+
 /* roboto-serif-600 - latin */
 @font-face {
   font-family: 'Roboto Serif';

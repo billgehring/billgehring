@@ -5,19 +5,7 @@ import { generateTagData } from '../utils/helpers';
 
 const {content: {title, description, publishDate, canonicalURL, featuredImage, tags} } = Astro.props;
 
-let allTagsData = [];
 
-if(tags && tags.length > 0){
-  allTagsData = generateTagData(tags);
-}
-
-const seo = {
-	title,
-	description,
-  publishDate,
-	canonicalURL,
-	image: featuredImage,
-};
 ---
 <Layout seo={seo}> 
   <div class="post-header__container"> 
