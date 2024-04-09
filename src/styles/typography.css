@@ -2,6 +2,72 @@
   https://google-webfonts-helper.herokuapp.com/fonts/lato?subsets=latin
 */
 
+/* Tisa Pro Regular
+font-family: "ff-tisa-web-pro", serif;
+font-weight: 400;
+font-style: normal;
+Tisa Pro Regular Italic
+font-family: "ff-tisa-web-pro", serif;
+font-weight: 400;
+font-style: italic;
+Tisa Pro Bold
+font-family: "ff-tisa-web-pro", serif;
+font-weight: 700;
+font-style: normal;
+Tisa Pro Bold Italic
+font-family: "ff-tisa-web-pro", serif;
+font-weight: 700;
+font-style: italic; */
+
+/* Source Sans Pro ExtraLight
+font-family: "source-sans-pro", sans-serif;
+font-weight: 200;
+font-style: normal;
+Source Sans Pro ExtraLight Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 200;
+font-style: italic;
+Source Sans Pro Light
+font-family: "source-sans-pro", sans-serif;
+font-weight: 300;
+font-style: normal;
+Source Sans Pro Light Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 300;
+font-style: italic;
+Source Sans Pro Regular
+font-family: "source-sans-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+Source Sans Pro Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 400;
+font-style: italic;
+Source Sans Pro Semibold
+font-family: "source-sans-pro", sans-serif;
+font-weight: 600;
+font-style: normal;
+Source Sans Pro Semibold Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 600;
+font-style: italic;
+Source Sans Pro Bold
+font-family: "source-sans-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+Source Sans Pro Bold Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 700;
+font-style: italic;
+Source Sans Pro Black
+font-family: "source-sans-pro", sans-serif;
+font-weight: 900;
+font-style: normal;
+Source Sans Pro Black Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 900;
+font-style: italic; */
+
 @import url('https://use.typekit.net/zju1ylz.css');
 /* Import the required fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;700i&display=swap');
