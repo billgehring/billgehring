@@ -5,18 +5,18 @@ export const nav = [
 	},
 	{
 		title: 'Teaching',
-		slug: 'teaching',
+		slug: '/teaching',
 	},
 	{
 		title: 'Publications',
-		slug: 'publications',
+		slug: '/publications',
 	},	
 	{
 		title: 'Research',
-		slug: 'research',
+		slug: '/research',
 	},
 	{
 		title: 'Contact',
-		slug: 'contact',
+		slug: '/contact',
 	},
 ];
