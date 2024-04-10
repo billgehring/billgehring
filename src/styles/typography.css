@@ -1,99 +1,21 @@
-/* Special thanks to this tool for local fonts CSS generation:
-  https://google-webfonts-helper.herokuapp.com/fonts/lato?subsets=latin
-*/
-
-/* Tisa Pro Regular
-font-family: "ff-tisa-web-pro", serif;
-font-weight: 400;
-font-style: normal;
-Tisa Pro Regular Italic
-font-family: "ff-tisa-web-pro", serif;
-font-weight: 400;
-font-style: italic;
-Tisa Pro Bold
-font-family: "ff-tisa-web-pro", serif;
-font-weight: 700;
-font-style: normal;
-Tisa Pro Bold Italic
-font-family: "ff-tisa-web-pro", serif;
-font-weight: 700;
-font-style: italic; */
-
-/* Source Sans Pro ExtraLight
-font-family: "source-sans-pro", sans-serif;
-font-weight: 200;
-font-style: normal;
-Source Sans Pro ExtraLight Italic
-font-family: "source-sans-pro", sans-serif;
-font-weight: 200;
-font-style: italic;
-Source Sans Pro Light
-font-family: "source-sans-pro", sans-serif;
-font-weight: 300;
-font-style: normal;
-Source Sans Pro Light Italic
-font-family: "source-sans-pro", sans-serif;
-font-weight: 300;
-font-style: italic;
-Source Sans Pro Regular
-font-family: "source-sans-pro", sans-serif;
-font-weight: 400;
-font-style: normal;
-Source Sans Pro Italic
-font-family: "source-sans-pro", sans-serif;
-font-weight: 400;
-font-style: italic;
-Source Sans Pro Semibold
-font-family: "source-sans-pro", sans-serif;
-font-weight: 600;
-font-style: normal;
-Source Sans Pro Semibold Italic
-font-family: "source-sans-pro", sans-serif;
-font-weight: 600;
-font-style: italic;
-Source Sans Pro Bold
-font-family: "source-sans-pro", sans-serif;
-font-weight: 700;
-font-style: normal;
-Source Sans Pro Bold Italic
-font-family: "source-sans-pro", sans-serif;
-font-weight: 700;
-font-style: italic;
-Source Sans Pro Black
-font-family: "source-sans-pro", sans-serif;
-font-weight: 900;
-font-style: normal;
-Source Sans Pro Black Italic
-font-family: "source-sans-pro", sans-serif;
-font-weight: 900;
-font-style: italic; */
+/* adobe:
+proxima-nova = sans
+ff-tisa-web-pro = FF Tisa Pro (serif), 
+source-sans-pro = Source Sans Pro (sans), 
+franklin-gothic-atf = Franklin Gothic (sans) */
 
 @import url('https://use.typekit.net/zju1ylz.css');
-/* Import the required fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;700i&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600;700&display=swap');
 
-/* roboto-serif-600 - latin */
-@font-face {
-  font-family: 'Roboto Serif';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local(''),
-       url('/assets/fonts/roboto-serif-v8-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/roboto-serif-v8-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* roboto-serif-700 - latin */
-@font-face {
-  font-family: 'Roboto Serif';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(''),
-       url('/assets/fonts/roboto-serif-v8-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/roboto-serif-v8-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
+/* Google fonts
+Lora = serif
+Merriweather = serif
+Open sans = sans
+Roboto Serif = serif
+Lato = sans
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;700i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600;700&display=swap'); */
 /* lato-300 - latin */
 @font-face {
   font-family: 'Lato';
@@ -134,6 +56,7 @@ font-style: italic; */
        url('/assets/fonts/lato-v23-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/assets/fonts/lato-v23-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 :root {
   --font-size-sm: clamp(14.4px, 0.07vw + 14.13px, 15px);
   --font-size-base: clamp(18px, 0.23vw + 17.09px, 20px);

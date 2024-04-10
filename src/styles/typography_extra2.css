@@ -1,0 +1,145 @@
+/* Special thanks to this tool for local fonts CSS generation:
+  https://google-webfonts-helper.herokuapp.com/fonts/lato?subsets=latin
+*/
+
+
+/* Source Sans Pro ExtraLight
+font-family: "source-sans-pro", sans-serif;
+font-weight: 200;
+font-style: normal;
+Source Sans Pro ExtraLight Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 200;
+font-style: italic;
+Source Sans Pro Light
+font-family: "source-sans-pro", sans-serif;
+font-weight: 300;
+font-style: normal;
+Source Sans Pro Light Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 300;
+font-style: italic; */
+@font-face{
+/* Source Sans Pro Regular */
+font-family: "source-sans-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+/*
+Source Sans Pro Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 400;
+font-style: italic;
+Source Sans Pro Semibold
+font-family: "source-sans-pro", sans-serif;
+font-weight: 600;
+font-style: normal;
+Source Sans Pro Semibold Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 600;
+font-style: italic;
+Source Sans Pro Bold
+font-family: "source-sans-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+Source Sans Pro Bold Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 700;
+font-style: italic;
+Source Sans Pro Black
+font-family: "source-sans-pro", sans-serif;
+font-weight: 900;
+font-style: normal;
+Source Sans Pro Black Italic
+font-family: "source-sans-pro", sans-serif;
+font-weight: 900;
+font-style: italic; */
+
+@import url('https://use.typekit.net/zju1ylz.css');
+/* Import the required fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;700i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+
+/* Define custom fonts */
+
+@font-face {
+  font-family: 'Trade Gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../src/fonts/TradeGothicLTStd-BdCn20.otf') format('opentype');
+}
+
+:root {
+  --font-size-sm: clamp(14.4px, 0.07vw + 14.13px, 15px);
+  --font-size-base: clamp(18px, 0.23vw + 17.09px, 20px);
+  --font-size-md: clamp(22.5px, 0.47vw + 20.61px, 26.66px);
+  --font-size-lg: clamp(28.13px, 0.84vw + 24.76px, 35.54px);
+  --font-size-xl: clamp(35.16px, 1.39vw + 29.6px, 47.37px);
+  --font-size-xxl: clamp(43.95px, 2.18vw + 35.22px, 63.15px);
+  --font-size-xxxl: clamp(54.93px, 3.32vw + 41.64px, 84.17px);
+}
+
+html,
+body {
+	line-height: 1.5;
+	font-family: var(--theme-font-family-sans);
+	font-size: var(--font-size-base);
+	color: var(--theme-on-bg);
+} 
+
+h1,
+h2,
+h3 {
+	font-family: var(--theme-font-family-serif);
+	font-weight: 700;
+}
+
+h1 {
+	font-size: var(--font-size-xxl);
+}
+
+h2 {
+	font-size: var(--font-size-xl);
+}
+
+h3 {
+	font-size: var(--font-size-lg);
+}
+
+h1,
+h2 {
+	line-height: 1.1;
+	font-weight: 700;
+}
+
+h3 {
+	font-weight: 500;
+}
+
+h6 {
+	font-size: var(--font-size-sm);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0 0 1rem 0;
+}
+
+blockquote {
+	font-style: italic;
+	font-size: var(--font-size-base);
+	font-weight: 500;
+	margin-bottom: 1rem;
+	padding-left: 1.5rem;
+	border-left: 0.25rem solid var(--theme-on-bg);
+}
