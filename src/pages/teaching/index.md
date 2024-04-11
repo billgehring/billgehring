@@ -8,7 +8,24 @@ layout: ../../layouts/MarkDownPage.astro
 #### Introduction  to Cognitive Psychology
 *Large lecture: Enrollment 300-450 per semester (!)*  
 An overview of theories and methods in the study of human cognition.  
-<br>**New in Spring Term 2024:**  Psych 240, Online Edition, enrollment 30.  Email Professor Gehring if you have questions: wgehring@umich.edu
+
+##### New in Spring Term 2024:  Psych 240, Online Edition, enrollment 30. 
+Email Professor Gehring if you have questions: wgehring@umich.edu.
+
+**Description**. The field of Cognitive Psychology includes the psychology of human perception, attention, memory, language, thinking (including problem solving and reasoning), and consciousness. The course will emphasize not only the content represented by these topics, but also the processes by which researchers develop theories and collect evidence.
+
+A central theme of the course is how findings from cognitive psychology can improve the studying and learning habits underlying academic success. Students will be encouraged to develop skills to improve their learning strategies in this class and in other classes.
+
+The fields of cognitive psychology and artificial intelligence share an intellectual history, and there is much to be gained by considering how the two disciplines can inform each other, especially in light of the current revolution in generative artificial intelligence. AI also affords new tools that can be used to enhance learning. Class activities will include the use of U of M’s instance of GPT4-Turbo and Maizey AI platforms. No prior experience with AI is necessary.
+
+Class activities will include the use of AI models available for free at U of M. In addition, depending on the technology available this spring, class activities may require a subscription to other AI models (approximately $40 for the term).
+
+This course will be online and synchronous, delivered via Zoom. It will be interactive, so students should have a device with a camera, microphone, and keyboard. 
+
+Learning will be assessed via objective examinations, small-group oral presentations, and other assignments.
+
+There is no textbook. Readings will be posted on the Canvas site and drawn from other online sources.
+
 <hr>
 
 #### Cognitive Science of Academic Success
