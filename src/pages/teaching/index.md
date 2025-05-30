@@ -6,10 +6,14 @@ layout: ../../layouts/MarkDownPage.astro
 <hr>
 
 #### Introduction  to Cognitive Psychology
-*Large lecture: Enrollment 300-450 per semester (!)*  
 An overview of theories and methods in the study of human cognition.  
 
-##### New in Spring Term 2024:  Psych 240, Online Edition, enrollment 30. 
+*Fall Term 2024: Large lecture online version, enrollment 330*  
+
+*Spring and Summer Terms 2025:  Psych 240, Online Edition, enrollment 30*
+
+The smaller version of the class combines oral exams and a ChatGPT Tutor:  <https://ggl.link/gehring1>
+
 Email Professor Gehring if you have questions: wgehring@umich.edu.
 
 **Description**. The field of Cognitive Psychology includes the psychology of human perception, attention, memory, language, thinking (including problem solving and reasoning), and consciousness. The course will emphasize not only the content represented by these topics, but also the processes by which researchers develop theories and collect evidence.
