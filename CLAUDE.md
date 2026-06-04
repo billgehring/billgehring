@@ -5,10 +5,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## What this is
 
 Bill Gehring's personal/academic website (https://www.billgehring.com), a static
-site built with **Astro 4**. It started from the [Odyssey theme](https://odyssey-theme.sapling.supply)
-(`treefarmstudio/odyssey-theme`), so a fair amount of theme scaffolding (demo
-components, landing-page/blog/company routes, Firebase config) is still present
-but unused. Most real changes are content edits, not feature code.
+site built with **Astro 6**. It started from the [Odyssey theme](https://odyssey-theme.sapling.supply)
+(`treefarmstudio/odyssey-theme`), so some theme scaffolding (demo components,
+landing-page/blog/company routes) is still present but unused. Most real changes
+are content edits, not feature code.
 
 ## Commands
 
@@ -52,13 +52,14 @@ this barrel over deep relative paths.
 `@config`, `@layouts/*`, `@styles/*`, `@utils/*`, `@icons`, `@assets/*`,
 `@pages/*`.
 
-**Astro integrations** (`astro.config.mjs`): `sitemap`, `mdx`, `lit`,
-`astro-icon`. `site` is set to the production domain for canonical URLs/sitemap.
+**Astro integrations** (`astro.config.mjs`): `sitemap`, `mdx`, `astro-icon`.
+`site` is set to the production domain for canonical URLs/sitemap.
 
 **Site-wide config** is centralized in `src/config/`: `settings.js`
-(title/url/name, theme-switcher toggle), `nav.js`, `footer.js`. Note: `footer.js`
-still contains the theme's demo links (Landing Pages, Theme, Company) — only
-`nav.js` reflects the real site.
+(title/url/name), `nav.js`, `footer.js`. Note: `footer.js` still contains the
+theme's demo `footerLists` (Landing Pages, Theme, Company), but `Footer.astro`
+never renders them — only `footerSocials` (the social icons) and `nav.js` reach
+the page.
 
 ## Styling
 
@@ -69,17 +70,19 @@ Global CSS is imported **once**, in `src/components/head/BaseHead.astro`, via
 - Theme tokens are CSS custom properties (`--theme-primary`, `--theme-surface-1`,
   `--section-margin`, etc.) defined in `src/styles/theme.css`. Components style
   against these variables — change the look here rather than per-component.
-- **Active typography is `src/styles/typography.css`.** The sibling files
-  `typography copy 2.css`, `typography orig.css`, and `typography_extra2.css` are
-  unused backups — do not edit them expecting changes to appear.
-- Fonts (Lato, Roboto Serif) are self-hosted as woff/woff2 in `src/fonts/` and
-  `public/assets/fonts/`.
+- **Typography lives in `src/styles/typography.css`** (the only typography file;
+  old backup copies were removed).
+- Display fonts are pulled via `@import` at the top of `typography.css` (Typekit
+  + Google Fonts — Merriweather for headings, source-sans-pro for body). Some
+  self-hosted woff/woff2 files remain in `src/fonts/` and `public/assets/fonts/`
+  but appear to be leftover and unused.
 
 ## Deployment
 
-The live site deploys via **Netlify** (`netlify.toml`: `command = npm run build`,
-`publish = dist/`). `dist/` is the build output and is gitignored.
+The live site is hosted on **a2hosting / hosting.com** (chosen for its detailed
+visitor logs). There is **no automated deploy**: build locally with
+`npm run build`, then zip the contents of `dist/` and upload them into
+`public_html` via cPanel. `dist/` is gitignored.
 
-`firebase.json` / `.firebaserc` are leftovers from the upstream Odyssey theme
-(site `odyssey-theme-sapling`, project `sapling-supply`) and are **not** the
-deploy target for this site — ignore them unless intentionally switching hosts.
+A leftover `netlify.toml` remains in the repo from an earlier setup but is **not**
+the deploy target — ignore it unless intentionally switching hosts.
