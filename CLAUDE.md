@@ -84,5 +84,62 @@ visitor logs). There is **no automated deploy**: build locally with
 `npm run build`, then zip the contents of `dist/` and upload them into
 `public_html` via cPanel. `dist/` is gitignored.
 
-A leftover `netlify.toml` remains in the repo from an earlier setup but is **not**
-the deploy target — ignore it unless intentionally switching hosts.
+## Visitor & security diagnostics
+
+Goal: spot malicious actors (vulnerability scanners, scrapers, brute-force
+probes). **Key fact: attackers and bots almost never run JavaScript**, so
+client-side analytics (Google Analytics, Plausible, etc.) cannot see them. The
+security signal lives in **server access logs** and at the **network edge**.
+This is a runbook to set up and revisit later — none of it is wired into the
+site code yet.
+
+**What you already have** (a2hosting cPanel → "Metrics"): raw Apache access
+logs plus AWStats/Webalizer. Every request is already recorded (IP, time, path,
+status code, user-agent, referrer). The steps below make that data usable and
+add active defense.
+
+### 1. GoAccess — turn raw logs into a readable dashboard (free, runs locally)
+
+Best first step; no server install and no DNS changes.
+
+1. cPanel → Metrics → **Raw Access** → download the log (often gzipped). If so:
+   `gunzip access.log.gz`
+2. Install once on your Mac: `brew install goaccess`
+3. Generate a report: `goaccess access.log --log-format=COMBINED -o report.html`
+   then open `report.html` in a browser.
+4. **Red flags to look for:** repeated hits to paths the site doesn't have
+   (`/wp-login.php`, `/.env`, `/xmlrpc.php`, `/.git/`, `/phpmyadmin`); bursts of
+   404/403/500 responses; a single IP with abnormally high request volume; odd
+   user-agents; unexpected countries. Those are almost always probes/scanners.
+
+### 2. Cloudflare — active protection + threat dashboard (free tier)
+
+GoAccess only *observes*. Cloudflare sits in front of the site and can *block*
+bad traffic before it ever reaches a2hosting.
+
+1. Free account at cloudflare.com → **Add a site** → `billgehring.com`.
+   Cloudflare scans existing DNS and gives you two nameservers.
+2. At the domain registrar, replace the current nameservers with Cloudflare's.
+   (Propagation takes minutes–hours; the site stays up the whole time.)
+3. Make sure the site's DNS record is **Proxied** (orange cloud) so traffic
+   actually routes through Cloudflare.
+4. Enable protection: Security → Bots → **Bot Fight Mode**; Security → WAF →
+   turn on the free managed ruleset; optionally add a **Rate Limiting** rule.
+5. Watch: **Security → Events** shows what was challenged/blocked; **Analytics**
+   shows traffic, threats, and country breakdown.
+6. **Keep your logs useful:** once proxied, a2hosting will log Cloudflare's IPs
+   instead of real visitors. Cloudflare passes the true IP in the
+   `CF-Connecting-IP` header — ask a2hosting support to enable `mod_remoteip`
+   (a.k.a. "restore visitor IP") so access logs and GoAccess reports show real
+   client IPs again.
+
+### 3. (Optional) Clean human-visitor metrics
+
+For "how many real people visited" numbers, add a privacy-friendly, cookie-less
+tracker: **Cloudflare Web Analytics** (free; no separate signup if already on
+Cloudflare) or self-hosted **Umami**. These *miss* bots by design, so they
+complement — not replace — items 1 & 2. Note: adding any client tracker
+reintroduces JavaScript to what is currently a zero-JS site.
+
+**Priority for the malicious-actor goal:** GoAccess first (immediate, free, no
+DNS change), then Cloudflare (ongoing active defense).
