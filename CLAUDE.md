@@ -133,6 +133,16 @@ bad traffic before it ever reaches a2hosting.
    (a.k.a. "restore visitor IP") so access logs and GoAccess reports show real
    client IPs again.
 
+**Does Cloudflare challenge every visitor?** No. It scores each request (IP
+reputation, fingerprint, behavior) first and only challenges traffic that looks
+suspicious. Modern challenges are mostly **invisible "Managed Challenges"** — a
+brief background check, not the old click-the-images CAPTCHA — so normal human
+visitors typically see nothing. Verified search crawlers (Googlebot, Bingbot)
+are allowlisted, so indexing and Google Scholar are unaffected. The full-page
+"Checking your browser…" interstitial shown to *everyone* appears only if you
+enable **"Under Attack Mode"** (an emergency switch for an active DDoS) — leave
+it off for normal operation.
+
 ### 3. (Optional) Clean human-visitor metrics
 
 For "how many real people visited" numbers, add a privacy-friendly, cookie-less
