@@ -4,9 +4,38 @@ layout: ../../layouts/MarkDownPage.astro
 
 ### Publications
 
+
+Hanna, G. L., Liu, Y., Hanna, B. S., Arnold, P. D., Gehring, W. J. (2026).
+Reaction time variability and electrophysiological indices of performance
+monitoring in youths with attention-deficit/hyperactivity disorder and
+obsessive-compulsive disorder. Psychophysiology, 2026; 63:e70403.
+[\[doi\]](https://doi.org/10.1111/psyp.70403)
+[\[PDF\]](/files/Hanna(2026)_RTVariability_ElectrophysPerfMon_Psychophysiology.pdf')
+
+Antonyan, L., Shaheen, S.-M., Burton, C. L., Gehring, W. J., Soreni, N.,
+Szura, P. F., Bellamy, J., Rajan, U., Rosenberg, D., Hanna, G. L., &
+Arnold, P. D. (2026). Polygenic risk scores for pediatric obsessive-compulsive
+symptoms: Mediating effects in samples clinically diagnosed with mental disorders.
+*Psychiatry Research*, *358*, 116977.
+[\[doi\]](https://doi.org/10.1016/j.psychres.2026.116977)
+[\[PDF\]](/files/Antonyan(2026)_PolygenicRiskScore_OCD.pdf)
+
+Hanna, G. L., Liu, Y., Rentschler, L., Hanna, B. S., Arnold, P. D., Gehring, W. J.
+(2026). Altered error monitoring and decreased flanker task accuracy in
+pediatric obsessive–compulsive disorder. *Child Psychiatry & Human Development*,
+*57*, 390–403.
+[\[doi\]](https://doi.org/10.1007/s10578-024-01711-4)
+[\[PDF\]](/files/Hanna(2026)_AltErrorMon_FlankerAcc_PedOCD_ChildPsychHumDev.pdf)
+
+Brown, T., Kim, K., Gehring, W. J., Lustig, C., & Bohnen, N. I. (2024).
+Sensitivity to and control of distraction: distractor-entrained oscillation
+and frontoparietal EEG gamma synchronization. *Brain Sciences*, *14*(6), 609.
+[\[doi\]](https://doi.org/10.3390/brainsci14060609)
+[\[PDF\]](/files/Brown(2024)_SensitivityDistraction_EEGGamma_BrainSciences.pdf)
+
 Liu, Y., Hampton Wray, A., Hall, M., Lescht, E. R., Gehring, W. J.,
-Fitzgerald, K. D., Chang, S-E. Brain response to errors in children who
-stutter. (2024). *Journal of Fluency Disorders*, *79*, *106035.*
+Fitzgerald, K. D., Chang, S-E. (2024). Brain response to errors in
+children who stutter. *Journal of Fluency Disorders*, *79*, 106035.
 [\[doi\]](https://doi.org/10.1016/j.jfludis.2023.106035)
 
 Morrison, F. J., Grammer, J., Gehring, W. J., Weixler, L. B., Kim, M. H.

@@ -11,4 +11,3 @@ layout: ../../layouts/MarkDownPage.astro
 [Corporate-ish resume (pdf)](/files/BillGehring_Resume_Latest.pdf)
 
 
-    
