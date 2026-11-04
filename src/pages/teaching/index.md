@@ -5,7 +5,7 @@ layout: ../../layouts/MarkDownPage.astro
 
 * * *
 
-My main courses in recent years at Michigan have been _Introduction to Cognitive Psychology_ and _Cognitive Science of Academic Success_. In both classes I emphasize how students can use principles from cognitive science to improve their strategies for learning course material. In recent years I've shown students how to use custom tutors based on artificial intelligence large-language models. The tutors listen to students explain concepts and ask them questions to correct misconceptions and improve comprehension.
+My main courses in recent years at Michigan have been _Introduction to Cognitive Psychology_ and _Cognitive Science of Academic Success_. In both classes I emphasize how students can use principles from cognitive science to improve their strategies for learning course material. In recent years I've shown students how to use custom tutors based on artificial intelligence large-language models. The tutors ask questions of students, listen to their explanations, correct misconceptions, and improve comprehension.
 
 * * *
 
@@ -15,19 +15,19 @@ Select a course below to read its full description.
 <summary>
   <span class="course-overview">
     <strong class="course-title" role="heading" aria-**level**="4">Introduction to Cognitive Psychology</strong>
-    <span class="course-description">How perception, attention, memory, and thinking shape the way we learn.</span>
+    <span class="course-description">The scientific study of perception, attention, memory, thinking, and consciousness.</span>
   </span>
-  <span class="course-toggle"><span class="course-show">Show details</span> <span class="course-hide" hidden>Hide details</span><span class="course-arrow" aria-hidden="true">⌄</span></span>
+  <span class="course-toggle" aria-hidden="true"></span>
 </summary>
 <div class="course-body">
 
-An overview of theories and methods in the study of human cognition. The course is taught in one of two formats: a large lecture version (enrollment 330) and a small version (enrollment 30). The smaller version of the class combines oral exams and a ChatGPT Tutor: [https://ggl.link/gehring1](https://ggl.link/gehring1)
+The field of Cognitive Psychology includes the study of human perception, attention, memory, language, thinking (including problem solving and reasoning), and consciousness. The course emphasizes not only the content represented by these topics, but also the processes by which researchers develop theories and collect evidence.
 
-**Description**. The field of Cognitive Psychology includes the psychology of human perception, attention, memory, language, thinking (including problem solving and reasoning), and consciousness. The course emphasizes not only the content represented by these topics, but also the processes by which researchers develop theories and collect evidence.
-
-A central theme of the course is how findings from cognitive psychology can improve the studying and learning habits underlying academic success. Students will be encouraged to develop skills to improve their learning strategies in this class and in other classes.
+A central theme of the course is how findings from cognitive psychology can improve the studying and learning habits underlying academic success. Students will be encouraged to develop skills to improve their learning strategies in college coursework.
 
 The fields of cognitive psychology and artificial intelligence share an intellectual history, and there is much to be gained by considering how the two disciplines can inform each other, especially in light of the current revolution in generative artificial intelligence. Class activities will include the use of AI tools to enhance learning. No prior experience with AI is necessary.
+
+The course is taught in one of two formats: a large lecture version (enrollment 330) and a small version (enrollment 30). The smaller version of the class combines oral exams and a ChatGPT Tutor: [https://ggl.link/gehring1](https://ggl.link/gehring1)
 
 </div>
 </details>
@@ -36,9 +36,9 @@ The fields of cognitive psychology and artificial intelligence share an intellec
 <summary>
   <span class="course-overview">
     <strong class="course-title" role="heading" aria-level="4">Cognitive Science of Academic Success</strong>
-    <span class="course-description">Practical strategies for learning, managing time, and using AI wisely in college.</span>
+    <span class="course-description">The strategies cognitive science recommends for learning, managing time, and using AI wisely in college.</span>
   </span>
-  <span class="course-toggle"><span class="course-show">Show details</span> <span class="course-hide" hidden>Hide details</span><span class="course-arrow" aria-hidden="true">⌄</span></span>
+  <span class="course-toggle" aria-hidden="true"></span>
 </summary>
 <div class="course-body">
 
@@ -54,7 +54,7 @@ Best practices for success in college, based on cognitive science and a thoughtf
     <strong class="course-title" role="heading" aria-level="4">Mind, Brain, and Evil</strong>
     <span class="course-description">What psychology and neuroscience can tell us about violence and cruelty.</span>
   </span>
-  <span class="course-toggle"><span class="course-show">Show details</span> <span class="course-hide" hidden>Hide details</span><span class="course-arrow" aria-hidden="true">⌄</span></span>
+  <span class="course-toggle" aria-hidden="true"></span>
 </summary>
 <div class="course-body">
 
@@ -69,7 +69,7 @@ _First-year seminar: Enrollment: 18-20:_ Why do people hurt each other? Violent 
     <strong class="course-title" role="heading" aria-level="4">Consciousness</strong>
     <span class="course-description">Exploring conscious experience, from the human brain to artificial intelligence.</span>
   </span>
-  <span class="course-toggle"><span class="course-show">Show details</span> <span class="course-hide" hidden>Hide details</span><span class="course-arrow" aria-hidden="true">⌄</span></span>
+  <span class="course-toggle" aria-hidden="true"></span>
 </summary>
 <div class="course-body">
 

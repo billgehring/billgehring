@@ -9,7 +9,13 @@ import { Container } from '@components/odyssey-theme';
 				<p> Professor Emeritus of Psychology<br>
 					Arthur F. Thurnau Professor Emeritus<br>
 					University of Michigan</p>
-				</div>
+				<p class="hero-section__blurb">Cognitive scientist and educator with 30+ years fostering academic success for diverse learners. Extensive experience in academic innovation, student mentoring, and evidence-based learning strategies. Technological expertise in generative AI and learning analytics. </p>
+				<nav class="hero-section__links" aria-label="Site sections">
+					<a href="/research">Research</a>
+					<a href="/teaching">Teaching</a>
+					<a href="/files/BillGehring_CV_Latest.pdf">CV</a>
+					<a href="/contact">Contact</a>
+				</nav>
 		</div>
 		<div class="hero-section__image">
 				<picture>
@@ -34,15 +40,32 @@ import { Container } from '@components/odyssey-theme';
 	}
 	.hero-section__text {
 		justify-self: center;
-		max-width: 25rem;
+		max-width: 30rem;
 	}
-	.hero-btns__container {
-		display: flex;
-		align-items: center;
-		gap: 1rem;
+	.hero-section__blurb {
+		margin-top: 1.5rem;
+		line-height: 1.5;
 	}
-	.hero-btns__container {
-		margin-right: 1rem;
+	.hero-section__links {
+		margin-top: 2rem;
+		font-size: var(--font-size-sm);
+	}
+	.hero-section__links a {
+		color: var(--theme-on-bg);
+		text-decoration: none;
+		font-weight: 600;
+		letter-spacing: 0.02em;
+	}
+	.hero-section__links a:hover {
+		text-decoration: underline;
+		text-underline-offset: 0.2em;
+	}
+	.hero-section__links a + a::before {
+		content: "·";
+		margin: 0 0.9rem;
+		color: #aaa;
+		font-weight: 400;
+		text-decoration: none;
 	}
 	.hero-section__image {
 		display: flex;
@@ -56,7 +79,7 @@ import { Container } from '@components/odyssey-theme';
 		border-radius: var(--theme-shape-radius);
 		/* added as per chatGPT */
 		min-width: 250px;
-		min-height: 140px; 
+		min-height: 140px;
 	}
 	@media (max-width: 768px) {
 		.hero-section__section {

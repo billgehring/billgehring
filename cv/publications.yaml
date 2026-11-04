@@ -1,0 +1,772 @@
+# Publications — single source of truth for the website and the CV.
+#
+# Newest first. Fields:
+#   type:    article | chapter
+#   authors: APA-style author string (Gehring, W. J. is bolded automatically on the CV)
+#   year, title
+#   journal, volume, issue, pages   (articles)
+#   source:  free-form Markdown for anything else (chapters, books, odd venues);
+#            use *asterisks* for italics. Used instead of journal/volume/pages.
+#   doi:     bare DOI, e.g. 10.1111/psyp.70403 (no https://doi.org/)
+#   pdf:     filename in public/files/ (served at https://billgehring.com/files/<pdf>)
+#   note:    optional, e.g. "[commentary]" — appended after the title
+
+- type: article
+  authors: Hanna, G. L., Liu, Y., Hanna, B. S., Arnold, P. D., Gehring, W. J.
+  year: 2026
+  title: Reaction time variability and electrophysiological indices of performance monitoring in youths with attention-deficit/hyperactivity disorder and obsessive-compulsive disorder
+  doi: 10.1111/psyp.70403
+  pdf: Hanna(2026)_RTVariability_ElectrophysPerfMon_Psychophysiology.pdf
+  journal: Psychophysiology
+  volume: '63'
+  issue: '9'
+  pages: e70403
+
+- type: article
+  authors: Antonyan, L., Shaheen, S.-M., Burton, C. L., Gehring, W. J., Soreni, N., Szura, P. F., Bellamy, J., Rajan, U., Rosenberg, D., Hanna, G. L., & Arnold, P. D.
+  year: 2026
+  title: 'Polygenic risk scores for pediatric obsessive-compulsive symptoms: Mediating effects in samples clinically diagnosed with mental disorders'
+  journal: Psychiatry Research
+  volume: '358'
+  pages: '116977'
+  doi: 10.1016/j.psychres.2026.116977
+  pdf: Antonyan(2026)_PolygenicRiskScore_OCD.pdf
+
+- type: article
+  authors: Hanna, G. L., Liu, Y., Rentschler, L., Hanna, B. S., Arnold, P. D., Gehring, W. J.
+  year: 2026
+  title: Altered error monitoring and decreased flanker task accuracy in pediatric obsessive–compulsive disorder
+  journal: Child Psychiatry & Human Development
+  volume: '57'
+  pages: 390–403
+  doi: 10.1007/s10578-024-01711-4
+  pdf: Hanna(2026)_AltErrorMon_FlankerAcc_PedOCD_ChildPsychHumDev.pdf
+
+- type: article
+  authors: Brown, T., Kim, K., Gehring, W. J., Lustig, C., & Bohnen, N. I.
+  year: 2024
+  title: 'Sensitivity to and control of distraction: distractor-entrained oscillation and frontoparietal EEG gamma synchronization'
+  journal: Brain Sciences
+  volume: '14'
+  issue: '6'
+  pages: '609'
+  doi: 10.3390/brainsci14060609
+  pdf: Brown(2024)_SensitivityDistraction_EEGGamma_BrainSciences.pdf
+
+- type: article
+  authors: Liu, Y., Hampton Wray, A., Hall, M., Lescht, E. R., Gehring, W. J., Fitzgerald, K. D., Chang, S-E.
+  year: 2024
+  title: Brain response to errors in children who stutter
+  journal: Journal of Fluency Disorders
+  volume: '79'
+  pages: '106035'
+  doi: 10.1016/j.jfludis.2023.106035
+
+- type: chapter
+  authors: Morrison, F. J., Grammer, J., Gehring, W. J., Weixler, L. B., Kim, M. H.
+  year: 2024
+  title: Role of Self-Regulation in the Transition to School
+  source: 'In L. Verhoeven, S. Nag, C. Perfetti, & Pugh K. (eds.), *Global Variation in Literacy Development* (pp. 316-332). Cambridge: Cambridge University Press.'
+
+- type: article
+  authors: Suzuki, T., Gu, P., Grove, T. B., Hammond, T., Collins, K. M., Pamidighantam, P., Arnold, P. D., Taylor, S. F., Liu, Y., Gehring, W. J., Hanna, G. L., & Tso, I. F.
+  year: 2023
+  title: Abnormally enhanced midfrontal theta-band activity during response monitoring in youth with obsessive-compulsive disorder
+  doi: 10.1016/j.biopsych.2022.10.020
+  journal: Biological Psychiatry
+  volume: '93'
+  issue: '11'
+  pages: 1031–1040
+
+- type: article
+  authors: Rapp, A. M., Tan, P. Z., Grammer, J. K., Gehring, W. J., Miller, G. A., & Chavira, D. A.
+  year: 2021
+  title: Cultural values influence relations between parent emotion socialization and adolescents' neural responses to peer rejection
+  journal: Research on Child and Adolescent Psychopathology
+  volume: '50'
+  pages: 255–267
+  doi: 10.1007/s10802-020-00764-y
+  pdf: Rapp_2022_CulturalValuesParentEmotion.pdf
+
+- type: article
+  authors: Rapp, A. M., Tan, P. Z., Grammer, J. K., Gehring, W. J., Miller, G. A., & Chavira, D. A.
+  year: 2021
+  title: Cultural group differences in the association of neural sensitivity to social feedback and social anxiety among diverse adolescents
+  journal: Journal of Psychiatric Research
+  volume: '143'
+  pages: 400–408
+  doi: 10.1016/j.jpsychires.2021.09.036
+  pdf: Rapp (2021) CulturalGroupDiff_SocialFeedbackSocialAnxietyDiverse_Journal of Psychiatric Research.pdf
+
+- type: article
+  authors: Ellis, A., Ahmed, S. F., Zeytinoglu, S., Isbell, E., Calkins, S. D., Leerkes, E. M., Grammer, J. K., Gehring, W. J., Morrison, F. J., & Davis-Kean, P. E.
+  year: 2021
+  title: 'Reciprocal associations between executive function and academic achievement: A conceptual replication of Schmitt et al. (2017)'
+  journal: Journal of Numerical Cognition
+  volume: '7'
+  issue: '3'
+  pages: 453–472
+  doi: 10.5964/jnc.7047
+  pdf: Ellis (2021) Reciprocal Associations Between Executive Function and Academic Achievement - J Num Cogn.pdf
+
+- type: article
+  authors: Clayson, P. E., Kappenman, E. S., Gehring, W. J., Miller, G. A., & Larson, M. J.
+  year: 2021
+  title: A commentary on establishing norms for error-related brain activity during the arrow flanker task among young adults
+  journal: NeuroImage
+  volume: '234'
+  pages: '117932'
+  doi: 10.1016/j.neuroimage.2021.117932
+  pdf: Clayson_2021_A commentary on establishing norms_NeuroImage.pdf
+
+- type: article
+  authors: Rapp, A. M., Grammer, J. K., Tan, P. Z., Gehring, W. J., Chavira, D. A., & Miller, G. A.
+  year: 2021
+  title: Collectivism is associated with enhanced neural response to socially salient errors among adolescents
+  journal: Social Cognitive and Affective Neuroscience
+  volume: '16'
+  issue: '11'
+  pages: 1150–1159
+  doi: 10.1093/scan/nsab065
+  pdf: Rapp (2021) Collectivism_Errors_Adolescents_Social Cognitive and Affective Neuroscience.pdf
+
+- type: article
+  authors: Hanna, G. L., Liu, Y., Rough, H. E., Suprapeneni, B. B. A., Hanna, B. S., Arnold, P. D., Gehring, W. J.
+  year: 2020
+  title: A diagnostic biomarker for pediatric Generalized Anxiety Disorder using the Error-Related Negativity
+  journal: Child Psychiatry & Human Development
+  volume: '51'
+  issue: '5'
+  pages: 827–838
+  doi: 10.1007/s10578-020-01021-5
+  pdf: Hanna2020_ERNDiagnosticBiomarker_Child Psychiatry & Human Development.pdf
+
+- type: article
+  authors: Rough, H. E., Hanna, B. S., Gillett, C. B., Rosenberg, D. R., Gehring, W. J., Arnold, P. D., & Hanna, G. L.
+  year: 2020
+  title: Screening for pediatric obsessive-compulsive disorder using the Obsessive-Compulsive Inventory - Child Version
+  journal: Child Psychiatry and Human Development
+  volume: '51'
+  pages: 888–899
+  doi: 10.1007/s10578-020-00966-x
+  pdf: Rough2020_ScreeningForPediatricOCD.pdf
+
+- type: article
+  authors: Liu, Y., Hanna, G. L., Rough, H. E., Arnold, P. D., & Gehring, W. J.
+  year: 2020
+  title: Behavioral and electrophysiological correlates of performance monitoring and development in children and adolescents with attention deficit/hyperactivity disorder
+  journal: Brain Sciences
+  volume: '10'
+  pages: '79'
+  doi: 10.3390/brainsci10020079
+  pdf: Liu_2020_PerfMonitorADHD_BrainSciences.pdf
+
+- type: article
+  authors: Mathias, B., Gehring, W. J., & Palmer, C.
+  year: 2019
+  title: Electrical Brain Responses Reveal Sequential Constraints on Planning during Music Performance
+  journal: Brain Sciences
+  volume: '9'
+  issue: '2'
+  pages: '25'
+  doi: 10.3390/brainsci9020025
+  pdf: Mathias2019_SequentialConstraints_BrainSciences.pdf
+
+- type: article
+  authors: Hanna, G. L., Liu, Y., Isaacs, Y. E., Ayoub, A. M., Brosius, A., Salander, Z., Arnold, P.D., & Gehring, W. J.
+  year: 2018
+  title: Error-related brain activity in adolescents with obsessive-compulsive disorder and major depressive disorder
+  journal: Depression and Anxiety
+  volume: '35'
+  pages: 752–760
+  doi: 10.1002/da.22767
+  pdf: HannaGehring(2018)ERNAdolescentsOCDMDD_DepressAnxiety.pdf
+
+- type: article
+  authors: Grammer, J. K., Gehring, W. J., & Morrison, F. J.
+  year: 2018
+  title: Associations between developmental changes in error-related brain activity and executive functions in early childhood
+  journal: Psychophysiology
+  volume: '55'
+  issue: '3'
+  pages: e13040
+  doi: 10.1111/psyp.13040
+  pdf: GrammerGehringMorrison(2018)DevelopmentalChangesERN_EF_Psychophysiology.pdf
+
+- type: article
+  authors: Gehring, W. J., Goss, B., Coles, M. G. H., Meyer, D. E., & Donchin, E.
+  year: 2018
+  title: The error-related negativity
+  journal: Perspectives on Psychological Science
+  volume: '13'
+  issue: '2'
+  pages: 200–204
+  doi: 10.1177/1745691617715310
+  pdf: Gehring_2018_ERNRetrospective_PPS.pdf
+
+- type: article
+  authors: Kim, M. H., Marulis, L. M., Grammer, J. K., Morrison, F. J., & Gehring, W. J.
+  year: 2017
+  title: Motivational processes from expectancy–value theory are associated with variability in the error positivity in young children
+  journal: Journal of Experimental Child Psychology
+  volume: '155'
+  pages: 32–47
+  doi: 10.1016/j.jecp.2016.10.010
+  pdf: Kim(2017)MotivationalPe_JExpChildPsych.pdf
+
+- type: article
+  authors: Grabell, A. S., Olson, S. L., Tardif, T., Thompson, M. C., & Gehring, W. J.
+  year: 2017
+  title: Comparing self-regulation-associated event related potentials in preschool children with and without high levels of disruptive behavior
+  journal: Journal of Abnormal Child Psychology
+  volume: '45'
+  issue: '6'
+  pages: 1119–1132
+  doi: 10.1007/s10802-016-0228-7
+  pdf: Grabell(2017)DisruptivePreschoolERP_JAbnormChildPsychol.pdf
+
+- type: article
+  authors: Mathias, B., Gehring, W. J., & Palmer, C.
+  year: 2017
+  title: Auditory N1 reveals planning and monitoring processes during music performance
+  journal: Psychophysiology
+  volume: '54'
+  issue: '2'
+  pages: 235–247
+  doi: 10.1111/psyp.12781
+  pdf: Mathias(2017)MusicPerformance_Psychophysiology.pdf
+
+- type: article
+  authors: Kim, M. H., Grammer, J. K., Marulis, L. M., Carrasco, M., Morrison, F. J., & Gehring, W. J.
+  year: 2016
+  title: Early math and reading achievement are associated with the error positivity
+  journal: Developmental Cognitive Neuroscience
+  volume: '22'
+  pages: 18–26
+  doi: 10.1016/j.dcn.2016.09.002
+  pdf: Kim(2016)MathReadingPe_DevelopCogNeuro.pdf
+
+- type: article
+  authors: Hanna, G. L., Liu, Y., Isaacs, Y. E., Ayoub, A. M., Torres, J. J., O'Hara, N. B., & Gehring, W. J.
+  year: 2016
+  title: Withdrawn/depressed behaviors and error-related brain activity in youth with obsessive-compulsive disorder
+  journal: Journal of the American Academy of Child and Adolescent Psychiatry
+  volume: '55'
+  issue: '10'
+  pages: 906–913.e2
+  doi: 10.1016/j.jaac.2016.06.012
+  pdf: Hanna(2016)WithdrawnDepressed_JAACAP.pdf
+
+- type: article
+  authors: Hanna, G. L., & Gehring, W. J.
+  year: 2016
+  title: The NIMH Research Domain Criteria Initiative and error-related brain activity
+  journal: Psychophysiology
+  volume: '53'
+  issue: '3'
+  pages: 386–388
+  doi: 10.1111/psyp.12571
+  pdf: HannaGehring(2016)RDocERN_Psychophys.pdf
+  note: '[Commentary]'
+
+- type: article
+  authors: Ferdinand, N.K., Becker, A.M.W., Kray, J., & Gehring, W.J.
+  year: 2016
+  title: 'Feedback processing in children and adolescents: Is there a sensitivity for processing rewarding feedback?'
+  journal: Neuropsychologia
+  volume: '82'
+  pages: 31–38
+  doi: 10.1016/j.neuropsychologia.2016.01.007
+  pdf: Ferdinand(2016)FeedbackChildrenAdolescentsRewarding_Neuropsychologia.pdf
+
+- type: article
+  authors: Liu, Y., Nelson, L. D., Bernat, E. M., & Gehring, W. J.
+  year: 2014
+  title: Perceptual properties of feedback stimuli influence the feedback-related negativity in the flanker gambling task
+  journal: Psychophysiology
+  volume: '51'
+  issue: '8'
+  pages: 782–788
+  doi: 10.1111/psyp.12216
+  pdf: LiuNelsonBernatGehring(2014)_PerceptualFRN_Psychophys.pdf
+
+- type: article
+  authors: Grammer, J. K., Carrasco, M., Gehring, W. J., & Morrison, F. J.
+  year: 2014
+  title: 'Age-related changes in error processing in young children: A school-based investigation'
+  journal: Developmental Cognitive Neuroscience
+  volume: '9'
+  pages: 93–105
+  doi: 10.1016/j.dcn.2014.02.001
+  pdf: GrammerCarrMorrGehring(2014)_AgeRelated_DevCogNeuro.pdf
+
+- type: article
+  authors: Hochman, E. Y., Orr, J. M., & Gehring, W. J.
+  year: 2014
+  title: 'Toward a more sophisticated response representation in theories of medial frontal performance monitoring: The effects of motor similarity and motor asymmetries'
+  journal: Cerebral Cortex
+  volume: '24'
+  issue: '2'
+  pages: 414–425
+  doi: 10.1093/cercor/bhs323
+  pdf: Hochman (2014) Toward a More Sophisticated Response.pdf
+
+- type: article
+  authors: Liu, Y., Hanna, G. L., Carrasco, M., Gehring, W. J., & Fitzgerald, K. D.
+  year: 2013
+  title: Altered relationship between electrophysiological response to errors and gray matter volumes in an extended network for error-processing in pediatric obsessive-compulsive disorder
+  doi: 10.1002/hbm.22240
+  pdf: Liu (2013) Altered relationship between electrophys - Human Brain Mapping.pdf
+  journal: Human Brain Mapping
+  volume: '35'
+  issue: '4'
+  pages: 1143–1153
+
+- type: article
+  authors: Carrasco, M., Hong C., C., Nienhuis, J. K., Harbin, S. M., Fitzgerald, K. D., Gehring, W. J., & Hanna, G. L.
+  year: 2013
+  title: Increased error-related brain activity in youth with obsessive-compulsive disorder and other anxiety disorders
+  journal: Neuroscience Letters
+  volume: '541'
+  pages: 214–218
+  doi: 10.1016/j.neulet.2013.02.017
+  pdf: Carrasco_2013_ERN_OCDANX_NeurosciLetters.pdf
+
+- type: article
+  authors: Carrasco, M., Harbin, S. M., Nienhuis, J. K., Fitzgerald, K. D., Gehring, W. J., & Hanna, G. L.
+  year: 2013
+  title: Increased error-related brain activity in youth with obsessive-compulsive disorder and unaffected siblings
+  journal: Depression and Anxiety
+  volume: '30'
+  issue: '1'
+  pages: 39–46
+  doi: 10.1002/da.22035
+  pdf: Carrasco (2013) ERN OCD Unaffected Sibs - Depression Anxiety.pdf
+
+- type: article
+  authors: Ferdinand, N. K., Mecklinger, A., Kray, J., & Gehring, W. J.
+  year: 2012
+  title: The processing of unexpected positive response outcomes in the mediofrontal cortex
+  journal: Journal of Neuroscience
+  volume: '32'
+  issue: '35'
+  pages: 12087–12092
+  doi: 10.1523/JNEUROSCI.1410-12.2012
+  pdf: FerdinandMecklingerKrayGehring2012_MFCPositiveOutcomes_JNeurosci.pdf
+
+- type: article
+  authors: Hanna, G. L., Carrasco, M., Harbin, S. M., Nienhuis, J. K., LaRosa, C. E., Chen, P., Fitzgerald, K. D., & Gehring, W. J.
+  year: 2012
+  title: Error-related negativity and tic history in pediatric obsessive-compulsive disorder
+  journal: Journal of the American Academy of Child and Adolescent Psychiatry
+  volume: '51'
+  issue: '9'
+  pages: 902–910
+  doi: 10.1016/j.jaac.2012.06.019
+  pdf: HannaGehring_2012_ERNOCDTics_JAACAP.pdf
+
+- type: article
+  authors: Liu, Y., Gehring, W. J., Weissman, D. H., Taylor, S. F., Fitzgerald, K. D.
+  year: 2012
+  title: Trial-by-trial adjustments of cognitive control following errors and response conflict are altered in pediatric obsessive-compulsive disorder
+  journal: Frontiers in Psychiatry
+  volume: '3'
+  issue: '41'
+  pages: 1–8
+  doi: 10.3389/fpsyt.2012.00041
+  pdf: LiuGehring2012_CogControlOCD_FrontPsychiatry.pdf
+
+- type: chapter
+  authors: Gehring, W. J., Liu, Y., Orr, J. M., & Carp, J.
+  year: 2012
+  title: The error-related negativity (ERN/Ne)
+  source: 'In S. J. Luck, & E. Kappenman (eds.), *Oxford handbook of event-related potential components* (pp. 231-291). New York: Oxford University Press.'
+  pdf: GehringLiuOrrCarp(2012)_ERN_Luck_Kappenman_Ch10.pdf
+
+- type: article
+  authors: Bernat, E.M., Nelson, L.D., Steele, V.R., Gehring, W.J., & Patrick, C. J.
+  year: 2011
+  title: 'Externalizing psychopathology and gain/loss feedback in a simulated gambling task: Dissociable components of brain response revealed by time-frequency analysis'
+  journal: Journal of Abnormal Psychology
+  volume: '120'
+  issue: '2'
+  pages: 352–364
+  doi: 10.1037/a0022124
+  pdf: Bernat_2011_Externalizing-FRN_JAbnormal.pdf
+
+- type: article
+  authors: Mai, X., Tardif, T., Doan, S. N., Liu, C., Gehring, W. J., Luo, Y-J.
+  year: 2011
+  title: Brain activity elicited by positive and negative feedback in preschool-aged children
+  journal: PLoS One
+  volume: '6'
+  issue: '4'
+  pages: e18774
+  doi: 10.1371/journal.pone.0018774
+  pdf: Mai_2011_PLoS ONE_preschooler feedback ERP.pdf
+
+- type: article
+  authors: Stern, E. R., Welsh, R. C., Fitzgerald, K. D., Gehring, W. J., Lister, J. J., Himle, J. A., Abelson, J. L, Taylor, S. F.
+  year: 2011
+  title: Hyperactive error responses and altered connectivity in ventromedial and frontoinsular cortices in obsessive-compulsive disorder
+  journal: Biological Psychiatry
+  volume: '69'
+  pages: 583–591
+  doi: 10.1016/j.biopsych.2010.09.048
+  pdf: Stern_2011_HyperactiveErrorResponses_BiolPsychiatry.pdf
+
+- type: article
+  authors: Stern, E.R., Liu Y., Gehring, W.J, Lister, J.J., Yin, G., Zhang, J, Fitzgerald, K.D., Himle, J.A,. Abelson, J.L., & Taylor, S.F.
+  year: 2010
+  title: Chronic medication does not affect hyperactive error responses in obsessive-compulsive disorder
+  journal: Psychophysiology
+  volume: '47'
+  issue: '5'
+  pages: 913–920
+  doi: 10.1111/j.1469-8986.2010.00988.x
+  pdf: Stern(2010) ChronicMedicationOCDERN_Psychophysiology.pdf
+
+- type: article
+  authors: Liu, C., Tardif, T., Mai, X., Simms, N., Gehring, W. J., & Luo, Y.
+  year: 2010
+  title: What's in a name? Brain activities reveal categorization processes differ across languages
+  journal: Human Brain Mapping
+  volume: '31'
+  issue: '11'
+  pages: 1786–1801
+  doi: 10.1002/hbm.20974
+  pdf: Liu (2010) Whats in a name - Hum Brain Mapping.pdf
+
+- type: article
+  authors: Anguera, J. A., Seidler, R. D., & Gehring, W. J.
+  year: 2009
+  title: Changes in performance monitoring during sensorimotor adaptation
+  journal: Journal of Neurophysiology
+  volume: '102'
+  pages: 1868–1879
+  doi: 10.1152/jn.00063.2009
+  pdf: AngueraSeidlerGehring (2009) SensorimotorAdaptation_JNeurophys.pdf
+
+- type: article
+  authors: Liu, Y., & Gehring, W. J.
+  year: 2009
+  title: Loss feedback negativity elicited by single- vs. conjoined-feature stimuli
+  journal: Neuroreport
+  volume: '20'
+  issue: '6'
+  pages: 632–636
+  doi: 10.1097/wnr.0b013e32832a3250
+  pdf: LiuGehring_2009_Feature_FRN_Neuroreport.pdf
+
+- type: article
+  authors: Liu, D., Sabbagh, M. A., Gehring, W. J., & Wellman, H.
+  year: 2009
+  title: Neural correlates of children's theory of mind development
+  journal: Child Development
+  volume: '80'
+  issue: '2'
+  pages: 318–326
+  doi: 10.1111/j.1467-8624.2009.01262.x
+  pdf: Liu_2009_TheoryofMind_Child_Development.pdf
+
+- type: article
+  authors: Bernat, E. M., Nelson, L. D., Holroyd, C. B., Gehring, W. J., & Patrick, C. J.
+  year: 2008
+  title: Separating cognitive processes with principal components analysis of EEG time-frequency distributions
+  journal: Proceedings of SPIE
+  volume: '7074'
+  pages: 7074S 1–10
+  doi: 10.1117/12.801362
+  pdf: Bernat_2008_PCA_TF_Proc_SPIE.pdf
+
+- type: article
+  authors: Taylor, S. F., Stern, E. R., & Gehring, W. J.
+  year: 2007
+  title: 'Neural systems for error monitoring: Recent findings and theoretical perspectives'
+  journal: The Neuroscientist
+  volume: '13'
+  pages: 160–172
+  doi: 10.1177/1073858406298184
+  pdf: TaylorSternGehring_2007_Neuroscientist.pdf
+
+- type: article
+  authors: Gehring, W. J.
+  year: 2006
+  title: Ordinary minds, extraordinary violence
+  journal: Science and Theology News
+  volume: '6'
+  issue: 11/12
+  pages: '36'
+  pdf: Gehring_2006_Ordinary_Minds_STNews.org.pdf
+
+- type: article
+  authors: Masaki, H., Takeuchi, S., Gehring, W. J., Takasawa, N., & Yamazaki, K.
+  year: 2006
+  title: Affective-motivational influences on feedback-related ERPs in a gambling task
+  journal: Brain Research
+  volume: '1105'
+  pages: 110–121
+  doi: 10.1016/j.brainres.2006.01.022
+  pdf: Masaki_Gehring_2006_Feedback_Brain_Research.pdf
+
+- type: article
+  authors: Sarter, M., Gehring, W. J., & Kozak, R.
+  year: 2006
+  title: 'More attention must be paid: The neurobiology of attentional effort'
+  journal: Brain Research Reviews
+  volume: '51'
+  pages: 145–160
+  doi: 10.1016/j.brainresrev.2005.11.002
+  pdf: Sarter_Gehring_2006_Effort_Ach_Brain_Res_Reviews.pdf
+
+- type: article
+  authors: Taylor, S. F., Martis, B., Fitzgerald, K. D., Welsh, R. C., Abelson, J. L., Liberzon, I., Himle, J. A., & Gehring, W. J.
+  year: 2006
+  title: Medial frontal cortex activity and loss-related responses to errors
+  journal: The Journal of Neuroscience
+  volume: '26'
+  issue: '15'
+  pages: 4063–4070
+  doi: 10.1523/jneurosci.4709-05.2006
+  pdf: Taylor_Gehring_2006_ACC_LossErrors_JNeurosci.pdf
+
+- type: article
+  authors: Bernat, E., Williams, W. J., & Gehring, W. J.
+  year: 2005
+  title: Decomposing ERP time-frequency energy using PCA
+  journal: Clinical Neurophysiology
+  volume: '116'
+  pages: 1314–1334
+  doi: 10.1016/j.clinph.2005.01.019
+  pdf: Bernat_Williams_Gehring_2005_ERPTimeFrequencyPCA_ClinNeurophys.pdf
+
+- type: article
+  authors: Fitzgerald, K. D., Welsh, R. C., Gehring, W. J., Abelson, J.L, Himle, J.A., Liberzon, I., & Taylor, S. F.
+  year: 2005
+  title: Error-related hyperactivity of the anterior cingulate cortex in obsessive-compulsive disorder
+  journal: Biological Psychiatry
+  volume: '57'
+  pages: 287–294
+  doi: 10.1016/j.biopsych.2004.10.038
+  pdf: Fitzgerald_2005_OCD_fMRI_BiolPsych.pdf
+
+- type: article
+  authors: Gehring, W. J., & Taylor, S. F.
+  year: 2004
+  title: When the going gets tough, the cingulate gets going
+  journal: Nature Neuroscience
+  volume: '7'
+  pages: 1285–1287
+  doi: 10.1038/nn1204-1285
+  pdf: Gehring_Taylor_2004_Nature_Neuroscience_NewsViews.pdf
+
+- type: article
+  authors: Masaki, H., Gehring, W. J., Takasawa, N., Yamazaki, K.
+  year: 2004
+  title: The functional significance of the error-related negativity in action monitoring
+  journal: Japanese Journal of Physiological Psychology and Psychophysiology
+  volume: '22'
+  issue: '1'
+  pages: 3–18
+  doi: 10.5674/jjppp1983.22.3
+  pdf: Masaki_2004_ERN_JJPP.pdf
+
+- type: chapter
+  authors: Gehring, W. J. & Willoughby, A. R.
+  year: 2004
+  title: Are all medial frontal negativities created equal? Toward a richer empirical basis for theories of action monitoring
+  source: 'In M. Ullsperger & M. Falkenstein (eds.), *Errors, Conflicts, and the Brain. Current Opinions on Performance Monitoring* (pp. 14-20). Leipzig: Max Planck Institute of Cognitive Neuroscience.'
+  pdf: Gehring_Willoughby_2004_Dortmund.pdf
+
+- type: article
+  authors: Liu, D., Sabbagh, M. A., Gehring, W. J., & Wellman, H. M.
+  year: 2004
+  title: 'Decoupling beliefs from reality in the brain: An ERP study of theory of mind'
+  journal: Neuroreport
+  volume: '15'
+  pages: 991–995
+  doi: 10.1097/00001756-200404290-00012
+  pdf: Liu_2004_ERP_ToM_Neuroreport.pdf
+
+- type: article
+  authors: Taylor, S. F., Welsh, R. C., Wager, T. D., Luan Phan, K. L., Fitzgerald, K. D., & Gehring, W. J.
+  year: 2004
+  title: A functional neuroimaging study of motivation and executive function
+  journal: Neuroimage
+  volume: '21'
+  pages: 1045–1054
+  doi: 10.1016/j.neuroimage.2003.10.032
+  pdf: Taylor_2004_Neuroimage.pdf
+
+- type: article
+  authors: Gehring, W. J., Karpinski, A., & Hilton, J. L.
+  year: 2003
+  title: Thinking about interracial interactions
+  journal: Nature Neuroscience
+  volume: '6'
+  pages: 1241–1243
+  doi: 10.1038/nn1203-1241
+  pdf: Gehring_2003_Interracial_NewsViews_Nature_Neuroscience.pdf
+
+- type: article
+  authors: Gehring, W. J., Bryck, R., Jonides, J., Albin, R., & Badre, D.
+  year: 2003
+  title: The mind's eye, looking inward? In search of executive control in internal attention switching
+  journal: Psychophysiology
+  volume: '40'
+  pages: 572–585
+  doi: 10.1111/1469-8986.00059
+  pdf: Gehring_2003_InternalAttention_Psychophysiology.pdf
+
+- type: article
+  authors: Gehring, W. J., & Willoughby, A. R.
+  year: 2002
+  title: The medial frontal cortex and error potentials
+  journal: Science
+  volume: '296'
+  pages: 1610–1611
+  pdf: GehringWilloughby(2002)_Medial Prefrontal Cortex and Error Potentials [Letter].pdf
+  note: '[Letter]'
+
+- type: article
+  authors: Gehring, W. J., & Willoughby, A. R.
+  year: 2002
+  title: The medial frontal cortex and the rapid processing of monetary gains and losses
+  journal: Science
+  volume: '295'
+  pages: 2279–2282
+  doi: 10.1126/science.1066893
+  pdf: GehringWilloughby_2002_MedialFrontalCortexGainsLosses_Science.pdf
+
+- type: article
+  authors: Gehring, W. J., & Knight, R. T.
+  year: 2002
+  title: Lateral prefrontal damage affects processing selection but not attention switching
+  journal: Cognitive Brain Research
+  volume: '13'
+  pages: 267–279
+  doi: 10.1016/s0926-6410(01)00132-x
+  pdf: GehringKnight_2002_PFC_CogBrResearch.pdf
+
+- type: article
+  authors: Gehring, W. J., & Fencsik, D. E.
+  year: 2001
+  title: Functions of the medial frontal cortex in the processing of conflict and errors
+  journal: The Journal of Neuroscience
+  volume: '21'
+  issue: '23'
+  pages: 9430–9437
+  doi: 10.1523/jneurosci.21-23-09430.2001
+  pdf: Gehring_Fencsik_2001_Conflict_JNeurosci.pdf
+
+- type: article
+  authors: Gehring, W. J., & Knight, R. T.
+  year: 2000
+  title: Prefrontal - cingulate interactions in action monitoring
+  journal: Nature Neuroscience
+  volume: '3'
+  pages: 516–520
+  doi: 10.1038/74899
+  pdf: GehringKnight_2000_PrefrontalCingulateERN_NatureNeuroscience.pdf
+
+- type: article
+  authors: Gehring, W. J., Himle, J., & Nisenson, L. G.
+  year: 2000
+  title: Action monitoring dysfunction in obsessive-compulsive disorder
+  journal: Psychological Science
+  volume: '11'
+  pages: 1–6
+  doi: 10.1111/1467-9280.00206
+  pdf: GehringHimleNisenson_2000_OCDandERN_PsychScience.pdf
+
+- type: article
+  authors: Awh, E., & Gehring, W. J.
+  year: 1999
+  title: The anterior cingulate cortex lends a hand in response selection
+  journal: Nature Neuroscience
+  volume: '2'
+  pages: 853–854
+  doi: 10.1038/13145
+  pdf: AwhGehring_NatureNeuroscience_1999_NewsViews.pdf
+
+- type: article
+  authors: Scheffers, M. K., Coles, M. G. H., Bernstein, P., Gehring, W. J., & Donchin, E.
+  year: 1996
+  title: 'Event-related brain potentials and error-related processing: An analysis of incorrect responses to go and no-go stimuli'
+  journal: Psychophysiology
+  volume: '33'
+  pages: 42–53
+  doi: 10.1111/j.1469-8986.1996.tb02107.x
+  pdf: Scheffers 1996 ERN Go No-go Psychophysiology.pdf
+
+- type: chapter
+  authors: Gehring, W. J., Coles, M. G. H., Meyer, D. E., & Donchin, E.
+  year: 1995
+  title: A brain potential manifestation of error-related processing
+  source: In G. Karmos, M. Molnar, V. Csepe, I. Czigler and J. E. Desmedt (Eds.) *Perspectives of Event-Related Potentials Research, Electroencephalography and Clinical Neurophysiology, Supplement 44* (pp. 287-296).
+  pdf: GehringColesMeyerDonchin(1995)ERNReview_EEGJournalSupplement.pdf
+
+- type: article
+  authors: Gehring, W. J., & Coles, M. G. H.
+  year: 1994
+  title: Expectancy and response strategy to sensory stimuli
+  journal: Neurology
+  volume: '44'
+  pages: 2212–2213
+  note: '[Comment]'
+
+- type: article
+  authors: Gehring, W. J., Goss, B., Coles, M. G. H., Meyer, D. E., & Donchin, E.
+  year: 1993
+  title: A neural system for error detection and compensation
+  journal: Psychological Science
+  volume: '4'
+  pages: 385–390
+  doi: 10.1111/j.1467-9280.1993.tb00586.x
+  pdf: GehringGossColesMeyerDonchin_1993_ERNoriginal_PsychScience.pdf
+
+- type: chapter
+  authors: Coles, M. G. H., Gehring, W., Gratton, G., & Donchin, E.
+  year: 1992
+  title: 'Response activation and verification: A psychophysiological analysis'
+  source: 'In G. E. Stelmach & J. Requin (Eds.), *Tutorials in motor behavior II* (pp. 779‑792). Amsterdam: North Holland.'
+
+- type: article
+  authors: Gehring, W. J., Gratton, G., Coles, M. G. H., & Donchin, E.
+  year: 1992
+  title: Probability effects on stimulus evaluation and response processes
+  journal: 'Journal of Experimental Psychology: Human Perception and Performance'
+  volume: '18'
+  pages: 198–216
+  doi: 10.1037/0096-1523.18.1.198
+  pdf: GehringGrattonColesDonchin(1992)_ProbabilityEffects_JEPHPP.pdf
+
+- type: chapter
+  authors: Coles, M. G. H., de Jong, R., Gehring, W. J., & Gratton, G.
+  year: 1991
+  title: 'Continuous versus discrete information processing: Evidence from movement‑related potentials'
+  source: 'In C. H. M. Brunia (Ed.), *Proceedings of the Ninth International Conference on Event‑Related Potentials of the Brain (EEG Supplement 42)* (pp. 260‑269). Amsterdam: Elsevier.'
+
+- type: article
+  authors: Coles, M. G. H., Gratton, G., & Gehring, W. J.
+  year: 1987
+  title: Theory in cognitive psychophysiology
+  journal: Journal of Psychophysiology
+  volume: '1'
+  pages: 13–16
+
+- type: article
+  authors: Lorig, T. S., Gehring, W. J., & Hyrn, D. L.
+  year: 1986
+  title: Period analysis of the EEG during performance of the Trail Making Test
+  journal: The International Journal of Clinical Neuropsychology
+  volume: '8'
+  pages: 97–99
+
+- type: article
+  authors: Lorig, T. S., Brown, D., & Gehring, W. J.
+  year: 1986
+  title: Period analysis of the EEG during timing
+  journal: The International Journal of Clinical Neuropsychology
+  volume: '8'
+  pages: 9–11

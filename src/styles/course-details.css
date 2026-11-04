@@ -60,45 +60,47 @@
   color: #444;
 }
 
-/* "Show details" label + chevron: a quiet cue that more text is available. */
+/* Plus/minus indicator: a quiet cue that each course expands. */
 .course-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
+  position: relative;
   flex-shrink: 0;
+  width: 1.1rem;
+  height: 1.1rem;
   color: #555;
-  font-size: var(--font-size-sm);
-  font-weight: 600;
-  white-space: nowrap;
 }
 
 .course-details > summary:hover .course-toggle {
   color: var(--theme-on-bg);
 }
 
-/* Draw the chevron with borders so it centers reliably; hide the glyph. */
-.course-arrow {
-  display: inline-block;
-  width: 0.55rem;
-  height: 0.55rem;
-  border-right: 2px solid currentColor;
-  border-bottom: 2px solid currentColor;
-  font-size: 0;
-  transform: translateY(-25%) rotate(45deg);
-  transition: transform var(--theme-transition);
+/* Two bars form a plus; the vertical one fades out when open, leaving a minus. */
+.course-toggle::before,
+.course-toggle::after {
+  content: "";
+  position: absolute;
+  background: currentColor;
+  transition: opacity var(--theme-transition), transform var(--theme-transition);
 }
 
-.course-details[open] .course-arrow {
-  transform: translateY(25%) rotate(-135deg);
+.course-toggle::before {
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  transform: translateY(-50%);
 }
 
-.course-hide,
-.course-details[open] .course-show {
-  display: none;
+.course-toggle::after {
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  transform: translateX(-50%);
 }
 
-.course-details[open] .course-hide {
-  display: inline;
+.course-details[open] .course-toggle::after {
+  opacity: 0;
+  transform: translateX(-50%) rotate(90deg);
 }
 
 .course-body {
@@ -111,9 +113,7 @@
 
 @media (max-width: 600px) {
   .course-details > summary {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0.6rem;
+    gap: 1rem;
     padding: 1rem 0.75rem 1rem 1rem;
   }
 

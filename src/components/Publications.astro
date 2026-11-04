@@ -1,0 +1,55 @@
+---
+// Renders the publication list from cv/publications.yaml in APA style.
+// To add a paper, edit cv/publications.yaml — not this file.
+import { getCollection } from 'astro:content';
+
+const pubs = (await getCollection('publications'))
+  .map((p) => p.data)
+  .sort((a, b) => a.order - b.order);
+
+const escape = (s: string) =>
+  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+// Minimal Markdown: *text* -> <em>text</em>
+const md = (s: string) => escape(s).replace(/\*([^*]+)\*/g, '<em>$1</em>');
+
+// Add a closing period unless the text already ends in punctuation.
+const end = (s: string) => (/[.?!]$/.test(s) ? s : `${s}.`);
+
+function citation(p: (typeof pubs)[number]) {
+  const title = end(escape(p.title) + (p.note ? ` ${escape(p.note)}` : ''));
+  let where: string;
+  if (p.journal) {
+    where = `<em>${escape(p.journal)}</em>`;
+    if (p.volume) where += `, <em>${escape(p.volume)}</em>`;
+    if (p.issue) where += `(${escape(p.issue)})`;
+    if (p.pages) where += `, ${escape(p.pages)}`;
+    where = end(where);
+  } else {
+    where = md(p.source ?? '');
+  }
+  return `${escape(p.authors)} (${p.year}). ${title} ${where}`;
+}
+---
+
+<div class="publications">
+  {
+    pubs.map((p) => (
+      <p>
+        <Fragment set:html={citation(p)} />
+        {p.doi && (
+          <>
+            {' '}
+            <a href={`https://doi.org/${p.doi}`}>[doi]</a>
+          </>
+        )}
+        {p.pdf && (
+          <>
+            {' '}
+            <a href={`/files/${encodeURIComponent(p.pdf)}`}>[PDF]</a>
+          </>
+        )}
+      </p>
+    ))
+  }
+</div>

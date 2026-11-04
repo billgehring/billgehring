@@ -24,10 +24,19 @@ There is no test suite and no linter beyond Prettier.
 ## Editing content (the common task)
 
 - **Page text** lives in Markdown at `src/pages/<section>/index.md` (e.g.
-  `about`, `teaching`, `publications`, `research`, `contact`). Each file's
+  `about`, `teaching`, `research`, `contact`). Each file's
   frontmatter sets `layout: ../../layouts/MarkDownPage.astro` and the body is
   plain Markdown (raw HTML like `<hr>` is allowed). The home page is
   `src/pages/index.astro`.
+- **Publications** are data, not Markdown: `cv/publications.yaml` is the single
+  source of truth shared by the website and the CV (field docs at the top of the
+  file; newest first). `src/content.config.ts` loads it as the `publications`
+  content collection with a strict schema (a typo'd field fails the build), and
+  `src/components/Publications.astro` renders APA citations with `[doi]`/`[PDF]`
+  links for `src/pages/publications/index.astro`. Add a paper = add one YAML
+  entry (+ drop its PDF in `public/files/`). `pdf:` holds the bare filename;
+  the site links it as `/files/<name>`, the CV as
+  `https://billgehring.com/files/<url-encoded name>`.
 - **Navigation** is data-driven in `src/config/nav.js` (title → page slug). Edit
   this to add/remove/reorder header links — do not hardcode nav in layouts.
 - **PDFs and downloads** (CV, resume, ~80 published paper PDFs, an NPR audio
@@ -80,9 +89,24 @@ Global CSS is imported **once**, in `src/components/head/BaseHead.astro`, via
 ## Deployment
 
 The live site is hosted on **a2hosting / hosting.com** (chosen for its detailed
-visitor logs). There is **no automated deploy**: build locally with
-`npm run build`, then zip the contents of `dist/` and upload them into
-`public_html` via cPanel. `dist/` is gitignored.
+visitor logs), in a shared `public_html` that also serves six other
+sites/subdomains plus some old projects — so any deploy must **only add/update
+this site's files and never delete**.
+
+**Automated (default):** pushing to `main` triggers
+`.github/workflows/deploy.yml`, which builds the site and `rsync`s `dist/` into
+`public_html` over SSH **without `--delete`**. Publishing is just `git push`;
+you can also re-run it from the repo's **Actions** tab ("Run workflow"). Auth is
+four repository secrets (`A2_SSH_HOST`, `A2_SSH_USER`, `A2_SSH_PORT`,
+`A2_SSH_KEY`) — the deploy key's public half is authorized in cPanel, its
+private half is the `A2_SSH_KEY` secret. `dist/` is gitignored (built in CI).
+Trade-off of no `--delete`: a page removed from the repo lingers on the server
+until you delete it there by hand. **Never add `--delete`** — it would wipe the
+co-hosted sites. Verify scope with `rsync -n` before changing deploy behavior.
+
+**Manual fallback:** `npm run build`, then upload the contents of `dist/` into
+`public_html` via cPanel — do not clear the directory first; other sites live
+there.
 
 ## Visitor & security diagnostics
 

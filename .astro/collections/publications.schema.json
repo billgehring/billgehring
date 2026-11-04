@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "anyOf": [
+    {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "order": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "article",
+              "chapter"
+            ]
+          },
+          "authors": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "title": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "journal": {
+            "type": "string"
+          },
+          "volume": {
+            "type": "string"
+          },
+          "issue": {
+            "type": "string"
+          },
+          "pages": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "doi": {
+            "type": "string"
+          },
+          "pdf": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "order",
+          "type",
+          "authors",
+          "year",
+          "title"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "order": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "article",
+              "chapter"
+            ]
+          },
+          "authors": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "title": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "journal": {
+            "type": "string"
+          },
+          "volume": {
+            "type": "string"
+          },
+          "issue": {
+            "type": "string"
+          },
+          "pages": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "doi": {
+            "type": "string"
+          },
+          "pdf": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "order",
+          "type",
+          "authors",
+          "year",
+          "title"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ]
+}
