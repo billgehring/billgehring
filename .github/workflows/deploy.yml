@@ -1,0 +1,57 @@
+name: Deploy to a2hosting
+
+# Builds the site in the cloud and rsyncs dist/ to public_html on every push to
+# main. After the one-time secret setup (see .github/workflows/README below or
+# the repo notes), publishing is just `git push`. You can also run it by hand
+# from the repo's Actions tab → "Deploy to a2hosting" → "Run workflow".
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Never let two deploys upload at the same time; let a running one finish.
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build the static site
+        run: npm run build
+
+      - name: Load the deploy SSH key
+        uses: webfactory/ssh-agent@v0.9.1
+        with:
+          ssh-private-key: ${{ secrets.A2_SSH_KEY }}
+
+      - name: Upload dist/ to public_html
+        # IMPORTANT: no --delete. public_html is shared with six other sites
+        # (gehringlab.org, gehringlab.com, cognitiontutor.com, cognitiontube.com,
+        # billgehring.org, dev.gehringlab.org) plus old projects, so the deploy
+        # only adds/updates this site's own files and must never remove anything
+        # else. Trade-off: a page you delete from the repo lingers on the server
+        # until you delete it there by hand.
+        # -rltz  recurse, keep symlinks + timestamps, compress
+        # --no-perms/owner/group + --chmod  let shared hosting own the files
+        #   while forcing web-readable modes (dirs 755, files 644)
+        run: |
+          rsync -rltvz \
+            --no-perms --no-owner --no-group --chmod=D755,F644 \
+            --exclude '.DS_Store' \
+            -e "ssh -p ${{ secrets.A2_SSH_PORT }} -o StrictHostKeyChecking=accept-new" \
+            dist/ "${{ secrets.A2_SSH_USER }}@${{ secrets.A2_SSH_HOST }}:public_html/"
