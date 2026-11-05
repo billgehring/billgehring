@@ -1,0 +1,220 @@
+# CV content (everything except publications, which live in publications.yaml).
+# Wrap italics in *asterisks*. Use en dashes (–) for numeric/date ranges and
+# hyphens (-) only in compound words. Text is rendered verbatim otherwise.
+
+name: William J. Gehring
+email: wgehring@umich.edu
+website: https://www.billgehring.com
+
+sections:
+  - heading: Research and Teaching Interests
+    style: prose
+    text: "Most of my research for over three decades has concerned the error-related negativity (ERN), a brain electrical response that I helped discover, which occurs when people make mistakes; I have used it to study the development of executive function in children and its disruption in anxiety disorders such as OCD. Teaching undergraduates is another major interest. Years in the classroom convinced me that many students rely on learning strategies that cognitive psychology has shown to be ineffective, so I created the course *Cognitive Science of Academic Success* to help first-year students become better, self-regulated learners. More recently I have turned to building AI tutors that put those strategies into practice, and to research using institutional data to study how curricular factors help or hinder academic success, especially for students from underserved communities."
+
+  - heading: Educational History
+    style: dated
+    indent: true
+    entries:
+      - year: "1992"
+        text: "Ph.D. in Psychology, University of Illinois at Urbana-Champaign. Major: Cognitive and Experimental Psychology; Minors: Biological Psychology, Philosophy; Dissertation: *The Error-Related Negativity: Evidence for a Neural Mechanism for Error-Related Processing*; Advisors: Michael G. H. Coles and Emanuel Donchin"
+      - year: "1985"
+        text: "A.B. in Psychology, *summa cum laude*, Phi Beta Kappa. Augustana College, Rock Island, IL; Advisor: Tyler S. Lorig"
+
+  - heading: Professional Experience
+    style: dated
+    entries:
+      - { year: "2023–present", text: "Professor Emeritus, Department of Psychology, University of Michigan" }
+      - { year: "2023–present", text: "Arthur F. Thurnau Professor Emeritus, University of Michigan" }
+      - { year: "2010–2022", text: "Professor, Department of Psychology, University of Michigan" }
+      - { year: "2004–2022", text: "Arthur F. Thurnau Professor, University of Michigan" }
+      - { year: "2015–2016", text: "Visiting Scholar, Graduate School of Education and Information Studies, UCLA" }
+      - { year: "2003–2012", text: "Associate Research Professor, Center for Human Growth and Development, University of Michigan" }
+      - { year: "2002–2010", text: "Associate Professor, Department of Psychology, University of Michigan (*Cognition and Perception Area Chair, 2006–2008*)" }
+      - { year: "1995–2002", text: "Assistant Professor, Department of Psychology, University of Michigan" }
+      - { year: "1992–1994", text: "Postdoctoral Fellow, Center for Neuroscience, University of California, Davis" }
+
+  - heading: Teaching Honors
+    style: dated
+    entries:
+      - { year: "2019, 2020", text: "University Housing Honored Instructor, University of Michigan" }
+      - { year: "2010", text: "John Dewey Teaching Award, University of Michigan, College of LS&A" }
+      - { year: "2009", text: "University of Michigan Greek Community Outstanding Teaching Award" }
+      - { year: "2004", text: "Arthur F. Thurnau Professorship, “the University’s highest award for excellence in undergraduate education”" }
+      - { year: "1999", text: "University of Michigan, College of Literature, Science, and the Arts, Excellence in Education Award" }
+
+  - heading: Fellowships and Honors
+    style: dated
+    entries:
+      - { year: "2011", text: "Fellow, Association for Psychological Science" }
+      - { year: "1994", text: "National Institute of Neurological Disorders & Stroke Postdoctoral Fellowship (Individual Award)" }
+      - { year: "1992–1993", text: "McDonnell-Pew Postdoctoral Fellowship, UC Davis, Center for Neuroscience" }
+      - { year: "1986–1989", text: "National Science Foundation Graduate Fellowship, UIUC" }
+      - { year: "1985–1986", text: "Dallenbach Fellowship, UIUC" }
+      - { year: "1985", text: "Ralph Waldo Hansen Award for Excellence in Psychology, Augustana College" }
+      - { year: "1985", text: "John Lang Writing Excellence Award, Augustana College" }
+
+  - heading: Courses Taught
+    style: list
+    items:
+      - "Introduction to Cognitive Psychology (online, enrollment 30): Spring and Summer Terms, 2024, Spring and Summer Terms, 2025."
+      - "Introduction to Cognitive Psychology (online/hybrid, enrollment 330): Fall Term, 2024"
+      - "Introduction to Cognitive Psychology (enrollment 350–450) (1995–2019, average instructor rating 4.9/5.0)"
+      - "First-Year (Freshman) Seminar: Cognitive Science of Academic Success (enrl. 18; 2013–2020, average instructor rating 5.0/5.0)"
+      - "Psychology Dept. Graduate Student Teaching Academy (instructor training) (2016–2018)"
+      - "Comprehensive Studies Program/Summer Bridge Program: CSP 100 (2014)"
+      - "Mind, Brain, and Spirituality (enrollment 300) (2013)"
+      - "Cutting-Edge Cognition (upper-level undergraduate seminar) (2012)"
+      - "First-Year (Freshman) Seminar: Mind, Brain, and Evil (a.k.a. Mind, Brain, and Violence)"
+      - "First-Year (Freshman) Seminar: Consciousness"
+      - "Group Section for Laboratories in Biopsychology"
+      - "Methods in Cognitive Neuroscience"
+      - "Graduate Seminar on Event-Related Brain Potentials"
+      - "Cognition and Perception Graduate Preliminary Exam Preparation Seminar"
+
+  - heading: Invited Talks on Improving Undergraduate Academic Success
+    style: list
+    items:
+      - "UM Information and Technology Services Teaching and Learning Summit (2024) (on AI tutoring)"
+      - "UM Information and Technology Services Teaching and Learning Group (2024) (on AI tutoring)"
+      - "UM Bentley Historical Library Faculty Seminar (2019)"
+      - "UM Ross School of Business Preparation Initiative Boot Camp (2012–2014, 2016–2018)"
+      - "Chemistry 209, *Structure and Reactivity Co-Requisite Seminar* (2018)"
+      - "Shiawassee Scholars Program (2015, 2017)"
+      - "UCLA Graduate School of Education and Information Sciences (2018)"
+      - "Campus Connections, UM Comprehensive Studies Program (2018)"
+      - "UCLA Center for Education Innovation and Learning in the Sciences (2016)"
+      - "UCLA Department of Psychology, Cognitive Forum (2016)"
+      - "Guest lecture, Cognitive Development and Schooling course, UCLA (2016)"
+      - "UCLA Robert and Elizabeth Bjork Lab Meeting, CogFog (2016)"
+      - "University of Michigan Causal Inference in Education Research Seminar (2015)"
+      - "University of Michigan *LSA Institute on Diversity and Campus Climate. Session 4: Building Skills and Social Capital*. (2014, 2015)"
+      - "*Bill McKeachie’s Teaching Tips and “Learning to Learn”: Lessons for Learning Analytics*. Talk presented at the dedication of the Wilbert J. (Bill) McKeachie Auditorium, UM Psychology. (March 27, 2015)"
+      - "*Institutional Challenges Dealing with the Underprepared/At-Risk Student Population.* Chemical Sciences at the Interface of Education|University of Michigan (CSIE|UM) Program (2015)"
+      - "Media Arts High School, Detroit (Jan. 27, 2015)"
+      - "Ottawa Hills High School, Grand Rapids, MI (Oct. 22, 2014)"
+      - "Athletic Department Academic Success Program, Freshman Transition Workshop for Student Athletes (Sept 21, 2014)"
+      - "Symposium on Learning Analytics at Michigan (SLAM) (March 7, 2012; Nov 16, 2013)"
+      - "UM Enriching Scholarship Conference Session on Best Practices for Improving Introductory Courses (May 6, 2014)"
+      - "*Classroom Climate.* U of M LSA Advisors Professional Development Series. (March 26, 2014)"
+      - "*How Can We Improve Learner Success?* Organizational Effectiveness and Diversity Seminar. University of Michigan Health System (Feb. 25, 2014)"
+      - "*Study Skills, Study Groups, and Faculty Coaching.* UM LSA Faculty Diversity Workshop (Feb. 6, 2014)"
+      - "Leadership Learning Coalition (UM administrative staff development program). (Oct. 18, 2014)"
+      - "Summer Bridge Program Friday Lecture (July 28, 2012; July 12, 2013)"
+      - "Leadership Learning Coalition (UM administrative staff development program) (Oct. 18, 2013)"
+      - "Graduate Student Instructor Fall Training, UM Psychology Department (Sept 1, 2012)"
+
+  - heading: Professional Service
+    style: groups
+    groups:
+      - subheading: Editorial Positions
+        kind: list
+        items:
+          - "Editorial Board, *Cognitive, Affective, and Behavioral Neuroscience* (2007–2014)"
+          - "Editorial Board, *Psychological Science* (2008–2012)"
+          - "Associate Editor, *International Journal of Psychophysiology* (2009–2011)"
+          - "Associate Editor, *Cognitive, Affective, and Behavioral Neuroscience* (2005–2007)"
+          - "Associate Editor, *Psychophysiology* (2002–2005)"
+      - subheading: "University of Michigan: College and University"
+        kind: list
+        items:
+          - "Information and Technology Services GenAI Instructional Practices Collaborative (2026)"
+          - "NIH Data Safety Monitoring Board (2016–2019)"
+          - "Grievance Hearing Board, University of Michigan (2017)"
+          - "Comprehensive Studies Program Advisory Board (2014–2016)"
+          - "Provost’s Digital Innovation Advisory Group (2014–2015)"
+          - "Chair, search committee for Director of the Center for Research on Learning and Teaching (CRLT) (2014–2015)"
+          - "Developing a Tools and Technology Innovation Pipeline Subcommittee (2014–2015)"
+          - "Digital Program Pipeline Subcommittee (2014–2015)"
+          - "University of Michigan Learning Analytics Task Force (2012–2015)"
+          - "Ross Business School Preparation Initiative Advisory Committee (2014)"
+          - "Comprehensive Studies Program Futures Task Force (2013–2014)"
+          - "Provost’s Task Force on Engaged Learning and Digital Instruction (2014)"
+          - "Provost’s Online Course (MOOC) Selection Committee (2012–13)"
+          - "Curriculum Committee, College of Literature, Science, and the Arts (2012–2013)"
+          - "Advisory Board, University of Michigan Center for Culture, Mind and Brain (2010–2013)"
+          - "Teaching Academy, LSA/Center for Research on Learning and Teaching (2012)"
+          - "U-M Teaching Evaluation Group (to reform methods for evaluating instruction) (2012)"
+          - "University of Michigan Google Tools Faculty Learning Committee (2011–2012)"
+          - "Selection Committee for Provost’s Teaching Innovation Prize (2011–2012)"
+          - "Faculty Panel, Workshop on Music and the Brain, UM Department of Musicology, April 15–16, 2011."
+          - "Faculty Panel, Workshop on Music and the Brain, UM Department of Musicology, March 26–27, 2010."
+          - "Arthur F. Thurnau Professorship Steering Committee (2009)"
+          - "Provost’s Council on Student Honors (Rhodes/Marshall Scholarship Nominations) (2006–2010)"
+          - "New Student Summer Orientation Faculty Presenter (2005–2007)"
+          - "Carnegie Academy on the Scholarship of Teaching and Learning Large Lecture Initiative, University of Michigan Center for Research on Learning and Teaching (2007)"
+          - "U of M/Carnegie Academy on the Scholarship of Teaching and Learning Leadership program advisory committee (2006–2007)"
+          - "University of Michigan Provost’s Seminar on Teaching and Learning, session leader, “Enhancing Student Learning in Introductory Courses” (2007)"
+          - "Faculty Advisor, Psychology Department Information Systems (2005–2006)"
+          - "College of Literature, Arts, and Sciences Information Technology Committee (2005–2006)"
+          - "Advisory Board, University of Michigan Center for Research on Learning and Teaching (2004–2006)"
+      - subheading: "University of Michigan: Psychology Department"
+        kind: list
+        items:
+          - "Student Academic Affairs Committee (2019–2020)"
+          - "Admissions Chair, Cognition and Cognitive Neuroscience Area (2017–18, 2018–19, 2019–2020)"
+          - "Assistant Professor Third-year Review Committee, chair (2018–2020)"
+          - "Lecturers’ Employee Organization Lecturer review committee (2020)"
+          - "Undergraduate Education Self-Study Committee (2018–2019)"
+          - "Executive Committee (2017–19)"
+          - "Cognition and Cognitive Neuroscience Graduate Student Recruitment Committee (2017–18, chair 2018)"
+          - "Promotion Review Panel (for Full Professor) (2017)"
+          - "Graduate Admissions Chair, Cognition and Cognitive Neuroscience Area (2017)"
+          - "Psychology Lecturers’ Employee Organization Lecturer review committee (2016)"
+          - "Student Academic Affairs Committee, Department of Psychology (2014–2015)"
+          - "Department of Psychology Augmented Executive Committee (2011–2014)"
+          - "Department of Psychology Student Academic Affairs Committee (2011–2012)"
+          - "University of Michigan Cognition and Cognitive Neuroscience Admissions Committee, chair (2011–2012)"
+          - "Undergraduate Concentration Advisor: Brain, Behavior and Cognitive Sciences Concentration (2009–2010)"
+          - "Developmental Psychology Area Faculty Search Committee (2008–2009)"
+          - "Cognition and Perception Area Graduate Recruitment Committee (2008–2009)"
+          - "Chair, Cognition and Perception Area, Department of Psychology (2006–2008)"
+          - "Pre-2005 Service: Faculty Search Committees for Cognition and Perception and Developmental Psychology; Psychology Department Augmented Executive Committee (merit review and promotions); Psychology Department Executive Committee; Office of the Vice President for Research, Advisory Panel for Functional Magnetic Resonance Imaging Instrumentation Expansion; Psychology Department Computing Committee; Information Technology Search Committee; Psychology Department Graduate Committee; Cognition and Perception Admissions and Recruitment Committees; Cognition and Perception Faculty Search Committees"
+      - subheading: Reviewer – Grants
+        kind: list
+        items:
+          - "National Institute of Mental Health: Cognition and Perception (BBBP-4) Study Section (ad hoc member), 2003, 2005; Special Emphasis Panel for Interdisciplinary Centers on Mental Health, 2004; B/START program ad hoc reviewer; NIMH Special Emphasis Panel on Cognitive Neuroscience, 2005, 2006, 2007; NIH Challenge Grants Panel BBBP L 58, 2009."
+          - "National Science Foundation ad hoc reviewer"
+          - "University of Michigan Substance Abuse Research Center"
+          - "University of Michigan Medical School Biomedical Research Council"
+          - "Biotechnology and Biological Sciences Research Council (UK)"
+          - "Binational (Israel-US) Science Foundation"
+      - subheading: Ad Hoc Reviewer – Journals
+        kind: paragraph
+        italic: true
+        text: "Aggressive Behavior; Archives of General Psychiatry; Behavioral Neuroscience; Behavioural Brain Research; Biological Psychiatry; Biological Psychology; Brain; Brain and Language; Brain Research; Cognitive, Affective and Behavioral Neuroscience; Cognitive Brain Research, Developmental Psychobiology; Electroencephalography and Clinical Neurophysiology; European Journal of Neuroscience; Neurophysiology; Human Brain Mapping; JAMA Psychiatry, Journal of Behavioral Decision Making; Journal of Cognitive Neuroscience; Journal of Experimental Psychology: General; Journal of Experimental Psychology: Human Perception and Performance; Journal of Experimental Psychology: Learning, Memory and Cognition; Journal of Forensic Sciences; Journal of Gerontology: Psychological Sciences; Journal of Neurophysiology; Journal of Neuroscience; Learning and Motivation; Nature; Nature Neuroscience; Neuroimage; Neuron; Neuropsychologia; Neuroreport; Neuroscience and Biobehavioral Reviews; Perspectives on Psychological Science; Proceedings of the National Academy of Sciences; Psychological Bulletin; Psychological Review; Psychological Science; Psychophysiology; Quarterly Journal of Experimental Psychology; Science; Scientific Data; Studies in Educational Evaluation"
+
+  - heading: Interviews and Features
+    style: list
+    items:
+      - "Brown, K. (February 13, 1999). Oops....sorry. *New Scientist.*"
+      - "*National Public Radio Weekend Edition Sunday*. (January 14, 2001). Interview. Audio: bit.ly/Gehring_NPR"
+      - "*Todd Mundt Show, National Public Radio* (June 24, 2002). Interview."
+      - "*New York Times* (April 27, 2004). Quoted in “Passengers Feel the Driver’s Anxiety, Too.” Available at http://tinyurl.com/36fn6."
+      - "*The University Record*, University of Michigan (October 11, 2004). “U-M researchers study humor, starting with New Yorker cartoons.” Available at http://www.umich.edu/~urecord/0405/Oct11_04/02.shtml"
+      - "*Creating an Identity-Safe Classroom.* University of Michigan blog post summarizing my February 2014 talk."
+
+  - heading: Grants
+    style: dated
+    entries:
+      - { year: "2020", text: "*DevEEG: A Robust Repository for Developmental Electroencephalogram Data.* Role: Co-PI. PI Amy Pienta. Direct Costs: $89,653." }
+      - { year: "2014–2019", text: "*Neurodevelopmental Pathways in Adolescent Health Risk Behavior*, NIH. Role: Co-I. PI Daniel Keating. Direct Costs: $2,743,864." }
+      - { year: "2014–2017", text: "*Exploring the Effects of Schooling on Changes in Behavioral and Neurological Indices of Children’s Executive Functioning.* National Science Foundation. Role: Co-PI. Direct Costs: $496,032." }
+      - { year: "2013–2017", text: "*Action Monitoring and Exomic Variants in Obsessive-Compulsive Disorder,* NIMH. Role: Co-PI. Direct Costs: $1,557,254." }
+      - { year: "2013", text: "*Emotion Regulation in the Brain,* M-Cubed Initiative Grant, University of Michigan, Role: Co-PI with Twila Tardif and Kate Fitzgerald, $60,000." }
+      - { year: "2011–2015", text: "*LSA-Instructional Technology Committee: New Infrastructure/New Initiatives Award for Teaching with Technology Project* ($59,506)." }
+      - { year: "2011–2015", text: "*Electrical Neuroimaging of Brain Processes During Human Gait,* National Institutes of Health R01, Role: Co-I; Daniel Ferris, PI ($1,501,560)." }
+      - { year: "2010–2012", text: "*Schooling and Growth of Executive Functioning: Steps to an Integrative Approach,* National Institute of Child Health and Human Development, R21, Co-PI with Fred Morrison ($275,000)." }
+      - { year: "2009–2011", text: "*Mechanisms for Error Detection and the Error-Related Negativity.* University of Michigan Office of the Vice President for Research, Role: PI ($14,822)." }
+      - { year: "2008–2010", text: "*Error-Related Negativity in Unaffected Siblings of Youth with Obsessive-Compulsive Disorder,* Obsessive-Compulsive Foundation, Role: Co-PI with Gregory Hanna ($18,211)." }
+      - { year: "2005–2010", text: "*Functional Neuroanatomy of Obsessive-Compulsive Disorder,* National Institute of Mental Health R01. Role: Co-I; Stephan Taylor, PI ($1,250,000)." }
+      - { year: "2002–2004", text: "*The Medial Frontal Cortex and the Processing of Probability and Value.* University of Michigan Office of the Vice President for Research, Role: PI ($17,000)." }
+      - { year: "1999–2001", text: "*Task Switching in Parkinson’s Disease,* Role: Co-I; Roger Albin, PI. University of Michigan Medical School ($100,000)" }
+      - { year: "1999–2001", text: "*Functional Magnetic Resonance Imaging of the Anterior Cingulate Cortex*, Role: Co-I; Stephan Taylor, PI. University of Michigan Medical School ($12,000)" }
+      - { year: "1999–2000", text: "*Neural Correlates of Theory of Mind Reasoning in Preschoolers,* Role: Co-I; Henry Wellman, PI. University of Michigan Office of the Vice President for Research ($11,430)" }
+      - { year: "1996–1997", text: "*The Neurocognitive Basis of Obsessive-Compulsive Disorder,* Role: PI. University of Michigan Horace H. Rackham School of Graduate Studies Faculty Grant ($15,000)" }
+      - { year: "1995–1996", text: "*Brain Mechanisms for the Inhibition of Action,* Role: PI. University of Michigan Office of the Vice President for Research ($12,500)" }
+      - { year: "1994–1996", text: "*Brain Mechanisms for the Inhibition of Action,* Role: PI. National Institute of Mental Health B/START Grant ($25,000)" }
+
+manuscripts:
+  - "Grammer, J. K., Gehring, W. J., Hazlett, C., Kim, M., & Morrison, F. J. Schooling effects on error-related brain activity."
+  - "Hsu, J., & Gehring, W. J. Math for all? Regression discontinuity in signals of preparation for college quantitative coursework."

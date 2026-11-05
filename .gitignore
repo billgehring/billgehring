@@ -21,3 +21,15 @@ pnpm-debug.log*
 
 icon.d.ts
 *.cache
+
+# CV build artifacts — all regenerated from cv.yaml + publications.yaml
+# (run `python cv/make_latex.py`, then xelatex / typst). Source kept, outputs not.
+cv/cvbody.tex
+cv/cv_overleaf.tex
+cv/*.pdf
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.zip
+cv/.texpile/
+cv/output/
